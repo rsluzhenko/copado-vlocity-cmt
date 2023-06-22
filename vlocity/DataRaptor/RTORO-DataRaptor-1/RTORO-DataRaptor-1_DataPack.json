@@ -6,7 +6,7 @@
     "%vlocity_namespace%__DRMapItem__c": "RTORO-DataRaptor-1_Mappings.json",
     "%vlocity_namespace%__DRMapName__c": "RTORO --- DataRaptor 1",
     "%vlocity_namespace%__DeleteOnSuccess__c": false,
-    "%vlocity_namespace%__Description__c": "This is a sample DataRaptor a short description.",
+    "%vlocity_namespace%__Description__c": "This is a sample DataRaptor with an updated description.",
     "%vlocity_namespace%__GlobalKey__c": "RTORO --- DataRaptor 1",
     "%vlocity_namespace%__IgnoreErrors__c": false,
     "%vlocity_namespace%__InputCustom__c": "",
