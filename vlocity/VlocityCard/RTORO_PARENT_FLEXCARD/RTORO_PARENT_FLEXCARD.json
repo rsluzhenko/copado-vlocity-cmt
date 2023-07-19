@@ -62,6 +62,14 @@
             },
             "conditions": {
                 "group": [
+                    {
+                        "field": "Name",
+                        "hasMergeField": false,
+                        "id": "state-new-condition-0",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Test"
+                    }
                 ],
                 "id": "state-condition-object",
                 "isParent": true
