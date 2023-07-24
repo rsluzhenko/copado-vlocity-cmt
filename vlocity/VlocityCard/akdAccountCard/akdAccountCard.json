@@ -54,13 +54,6 @@
                                         "type": "text"
                                     },
                                     {
-                                        "fieldName": "Id",
-                                        "label": "Id",
-                                        "searchable": false,
-                                        "sortable": true,
-                                        "type": "text"
-                                    },
-                                    {
                                         "fieldName": "Billing City",
                                         "label": "Billing City",
                                         "searchable": false,
