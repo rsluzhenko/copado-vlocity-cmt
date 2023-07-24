@@ -21,10 +21,10 @@
     "isFlex": true,
     "isRepeatable": false,
     "lwc": {
-        "DeveloperName": "cfAkdAccountCard_1_akd",
-        "Id": "0Rb780000000ekNCAQ",
+        "DeveloperName": "cfAkdAccountCard_2_akd",
+        "Id": "0Rb780000000fFaCAI",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfAkdAccountCard_1_akd",
+        "MasterLabel": "cfAkdAccountCard_2_akd",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -66,6 +66,12 @@
                                         "searchable": false,
                                         "sortable": true,
                                         "type": "text"
+                                    },
+                                    {
+                                        "fieldName": "Account Name",
+                                        "label": "Account Number",
+                                        "searchable": true,
+                                        "sortable": true
                                     }
                                 ],
                                 "groupOrder": "asc",
