@@ -18,10 +18,10 @@
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfDemoUXContactCard_1_Salesforce",
-        "Id": "0Rb8Y000000qVciSAE",
+        "DeveloperName": "cfDemoUXContactCard",
+        "Id": "0Rb780000000avRCAQ",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfDemoUXContactCard_1_Salesforce",
+        "MasterLabel": "cfDemoUXContactCard",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
