@@ -5,7 +5,7 @@
     "%vlocity_namespace%__CustomOutputClass__c": "",
     "%vlocity_namespace%__DRMapName__c": "Mahima - DR - Deploy test",
     "%vlocity_namespace%__DeleteOnSuccess__c": false,
-    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__Description__c": "new description here",
     "%vlocity_namespace%__GlobalKey__c": "Mahima - DR - Deploy test",
     "%vlocity_namespace%__IgnoreErrors__c": false,
     "%vlocity_namespace%__InputCustom__c": "",
