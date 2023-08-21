@@ -1,6 +1,6 @@
 {
   "Vlocity": {
-    "rootfolder": "",
+    "rootfolder": "vlocity custom/**",
     "defaultFolder": "vlocity/**"
   },
   "SFDX": {
