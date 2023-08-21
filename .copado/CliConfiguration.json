@@ -5,11 +5,12 @@
   },
   "SFDX": {
     "rootfolder": [
-      "force-app/**"
+      "force-app/**",
+      "sfdx custom/**"
     ],
     "config": {
       "filepath": "sfdx-project.json",
-      "property": "packageDirectories[].path"
+      "property": "packageDirectories[1].path"
     },
     "defaultFolder": "force-app",
     "exclude": {
