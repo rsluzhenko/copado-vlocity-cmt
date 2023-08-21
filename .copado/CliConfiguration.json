@@ -5,7 +5,8 @@
   },
   "SFDX": {
     "rootfolder": [
-      "force-app/**"
+      "force-app/**",
+      "sfdx custom/**"
     ],
     "config": {
       "filepath": "sfdx-project.json",
@@ -16,7 +17,8 @@
       "filePattern": [
         "**/__tests__/**",
         "**/.eslintrc.json",
-        "**/jsconfig.json"
+        "**/jsconfig.json",
+        "**/excluded files/**"
       ]
     }
   },
