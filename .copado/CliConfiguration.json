@@ -1,12 +1,11 @@
 {
   "Vlocity": {
-    "rootfolder": "vlocity custom/**",
+    "rootfolder": "vlocity2/**",
     "defaultFolder": "vlocity/**"
   },
   "SFDX": {
     "rootfolder": [
-      "force-app/**",
-      "sfdx custom/**"
+      "force-app/**"
     ],
     "config": {
       "filepath": "sfdx-project.json",
@@ -17,8 +16,7 @@
       "filePattern": [
         "**/__tests__/**",
         "**/.eslintrc.json",
-        "**/jsconfig.json",
-        "**/excluded files/**"
+        "**/jsconfig.json"
       ]
     }
   },
