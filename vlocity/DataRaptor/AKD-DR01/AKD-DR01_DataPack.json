@@ -1,10 +1,10 @@
 {
-    "%vlocity_namespace%__BatchSize__c": "",
+    "%vlocity_namespace%__BatchSize__c": "5",
     "%vlocity_namespace%__CheckFieldLevelSecurity__c": false,
     "%vlocity_namespace%__CustomInputClass__c": "",
     "%vlocity_namespace%__CustomOutputClass__c": "",
     "%vlocity_namespace%__DRMapItem__c": "AKD-DR01_Mappings.json",
-    "%vlocity_namespace%__DRMapName__c": "AKD DR01",
+    "%vlocity_namespace%__DRMapName__c": "AKD DR012345",
     "%vlocity_namespace%__DeleteOnSuccess__c": false,
     "%vlocity_namespace%__Description__c": "AKD Sample Dataraptor 01",
     "%vlocity_namespace%__GlobalKey__c": "AKD DR01",
