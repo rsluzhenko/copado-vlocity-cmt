@@ -3,14 +3,24 @@
       "rootfolder": "",
       "defaultFolder": "vlocity/**"
     },
-    "defaultFolder": "force-app",
-    "exclude": {
-      "filePattern": [
-        "**/__tests__/**",
-        "**/.eslintrc.json",
-        "**/jsconfig.json",
-        "**/excluded files/**"
-      ]
+    "SFDX": {
+      "rootfolder": [],
+      "config": {
+        "filepath": "sfdx-project.json",
+        "property": "packageDirectories[].path"
+      },
+      "defaultFolder": "force-app",
+      "exclude": {
+        "filePattern": [
+          "**/__tests__/**",
+          "**/.eslintrc.json",
+          "**/jsconfig.json",
+          "**/excluded files/**"
+        ]
+      }
+    },
+    "Other": {
+      "default": true
     }
   },
   "Other": {
