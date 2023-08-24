@@ -3,9 +3,13 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "force-metadata",
+      "default": false
     }
   ],
-  "name": "copado-vlocitycmt",
+  "name": "copado-vlocity-cmt",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "57.0"
