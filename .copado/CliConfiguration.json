@@ -1,24 +1,24 @@
 {
-    "Vlocity": {
-      "rootfolder": "vlocity2/**",
-      "defaultFolder": "vlocity/**"
+  "Vlocity": {
+    "rootfolder": "vlocity/**",
+    "defaultFolder": "vlocity/**"
+  },
+  "SFDX": {
+    "rootfolder": [],
+    "config": {
+      "filepath": "sfdx-project.json",
+      "property": "packageDirectories[].path"
     },
-    "SFDX": {
-      "rootfolder": [],
-      "config": {
-        "filepath": "sfdx-project.json",
-        "property": "packageDirectories[].path"
-      },
-      "defaultFolder": "force-app",
-      "exclude": {
-        "filePattern": [
-          "**/__tests__/**",
-          "**/.eslintrc.json",
-          "**/jsconfig.json"
-        ]
-      }
-    },
-    "Other": {
-      "default": true
+    "defaultFolder": "force-app",
+    "exclude": {
+      "filePattern": [
+        "**/__tests__/**",
+        "**/.eslintrc.json",
+        "**/jsconfig.json"
+      ]
     }
+  },
+  "Other": {
+    "default": true
   }
+}
