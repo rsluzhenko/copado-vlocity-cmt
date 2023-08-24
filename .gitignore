@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 .env
 
 .vscode/
+.copado/CliConfiguration.json
