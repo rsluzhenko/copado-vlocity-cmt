@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Send Hardware Details for Shipping_Mobile Hardware Provisioning",
+    "OrchestrationItemDefinition/Start Mobile Provisioning_Mobile Plan E2E",
+    "OrchestrationPlanDefinition/Mobile Plan E2E"
+]

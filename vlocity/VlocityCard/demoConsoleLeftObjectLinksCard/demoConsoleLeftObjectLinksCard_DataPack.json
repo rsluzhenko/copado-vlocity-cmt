@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 4,
+                    "name": "recordId",
+                    "val": "0015Y00002iaWMwQAM"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "AccountId": "{recordId}"
+                },
+                "ipMethod": "Account_ObjectRecordsCount",
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleLeftObjectLinksCard.json",
+    "%vlocity_namespace%__Description__c": "Console card holding list of account objects links",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleLeftObjectLinksCard/sfi/3/1623849771675",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CiConsole_Left_ObjectLinks_Card_Temp/sfi/3/1619643873817",
+    "%vlocity_namespace%__SampleData__c": "{\"CaseLink\":\"Cases (0)\",\"OrderLink\":\"Orders (0)\",\"ContractLink\":\"Contracts (0)\",\"OpportunityLink\":\"Opportunities (0)\",\"AssetLink\":\"Services & Equipment (0)\",\"StatementLink\":\"Statements (0)\"}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".nav-item .slds-action_item .slds-action_icon .slds-icon {\\n    margin-right: 70px;\\n}\",\"styleObjects\":{\"object-link\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{\"iconColor\":\"#999999\",\"iconSize\":\"small\",\"styles\":{\"label\":{\"color\":\"#0F80A8\"}}},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"\",\"style\":\"             \",\"selectedStyles\":\"object-link\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 3,
+    "Name": "demoConsoleLeftObjectLinksCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleLeftObjectLinksCard"
+}

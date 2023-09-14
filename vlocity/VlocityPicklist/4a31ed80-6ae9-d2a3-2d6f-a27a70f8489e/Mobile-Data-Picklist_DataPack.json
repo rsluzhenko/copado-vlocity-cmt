@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "B2C-PL-MOB-DATA",
+    "%vlocity_namespace%__DataType__c": "Number",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveFromDate__c": "",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "17e4284a-f98d-bc21-04d5-deb093f4c8f7",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "4a31ed80-6ae9-d2a3-2d6f-a27a70f8489e",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__PicklistValue__c": "Mobile-Data-Picklist_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "Mobile Data Picklist",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/4a31ed80-6ae9-d2a3-2d6f-a27a70f8489e"
+}

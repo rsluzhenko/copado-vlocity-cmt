@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2001-01-01T05:00:00.000Z",
+    "%vlocity_namespace%__FrequencyUnitOfMeasure__c": "",
+    "%vlocity_namespace%__Frequency__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "1bd95de3-75b6-1adc-b48d-1bc5655283b3",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__Repeat__c": "",
+    "%vlocity_namespace%__TotalDurationUoM__c": "Month",
+    "%vlocity_namespace%__TotalDuration__c": 3,
+    "Name": "3 Month Duration",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__TimePlan__c/1bd95de3-75b6-1adc-b48d-1bc5655283b3"
+}

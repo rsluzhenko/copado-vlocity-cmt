@@ -1,0 +1,16 @@
+[
+    "AttributeCategory/B2C-ATTRCAT-CLD-STOR",
+    "AttributeCategory/B2C-ATTRCAT-CONTRACT-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-CPE-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-INSTALLATION-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-INT-PLAN",
+    "AttributeCategory/B2C-ATTRCAT-INTERNET-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-MOB-DEV",
+    "AttributeCategory/B2C-ATTRCAT-MOB-FEAT",
+    "AttributeCategory/B2C-ATTRCAT-MOB-NUM",
+    "AttributeCategory/B2C-ATTRCAT-MOB-PLAN",
+    "AttributeCategory/B2C-ATTRCAT-OTHER-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-SIM",
+    "AttributeCategory/B2C-ATTRCAT-SPEEDBOOST",
+    "AttributeCategory/B2C-ATTRCAT-STREAMING-VIDEO"
+]

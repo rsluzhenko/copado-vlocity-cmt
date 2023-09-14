@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": "DueDate"
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n  {\n    \"Product\": \"Energy Rate\",\n    \"Amount\": 125652,\n    \"startDateFormatted\": \"10/01/2019\"\n  },\n  {\n    \"Product\": \"T&D Charge\",\n    \"Amount\": 21350,\n    \"previousBalance\": \"$78,000.00\"\n  },\n  {\n    \"Product\": \"Administration Charge\",\n    \"Amount\": 7998,\n    \"previousBalance\": \"$68,000.00\"\n  }\n]"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleRightHomeStatementPieCard.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleRightHomeStatementPieCard/sfi/1/1620940339837",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CiConsole_Right_HomeStatementPie_Card/SalesforceIndustries/2/1619549320325",
+    "%vlocity_namespace%__SampleData__c": "[{\"Product\":\"Energy Rate\",\"Amount\":125652,\"startDateFormatted\":\"10/01/2019\"},{\"Product\":\"T&D Charge\",\"Amount\":21350,\"previousBalance\":\"$78,000.00\"},{\"Product\":\"Administration Charge\",\"Amount\":7998,\"previousBalance\":\"$68,000.00\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"article.slds-card {\\n    border: none;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleRightHomeStatementPieCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleRightHomeStatementPieCard"
+}

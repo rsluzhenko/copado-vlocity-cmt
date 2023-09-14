@@ -1,0 +1,62 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 0,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Apple iPhone 13 Pro Max",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "c35cb790-4ee9-0c40-5e66-e9b9a59e671b",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "c35cb790-4ee9-0c40-5e66-e9b9a59e671b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c35cb790-4ee9-0c40-5e66-e9b9a59e671b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "B2C-MOB-OFR-IPHONE13-PROMAX",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/c35cb790-4ee9-0c40-5e66-e9b9a59e671b"
+    },
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Apple iPhone 13 Pro Max",
+        "Pricebook2.Name": "Summer 23",
+        "Pricebook2Id": {
+            "Name": "Summer 23",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Summer 23",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "c35cb790-4ee9-0c40-5e66-e9b9a59e671b",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "c35cb790-4ee9-0c40-5e66-e9b9a59e671b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c35cb790-4ee9-0c40-5e66-e9b9a59e671b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "B2C-MOB-OFR-IPHONE13-PROMAX",
+        "UnitPrice": 1700,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Summer 23/Product2/c35cb790-4ee9-0c40-5e66-e9b9a59e671b"
+    }
+]

@@ -1,0 +1,342 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Mobile-Device-PS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-DEVICE-COLOR": null,
+        "B2C-ATTR-PAYTERM": "Full Retail Price",
+        "B2C-ATTR-STORAGE-CAP": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-MOB-DEV",
+                "Name": "Mobile Device Details",
+                "displaySequence": 8100,
+                "id": "a0P8Y00000OG1iOUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKUUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-DEVICE-COLOR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "0d19f921-d7b2-9d42-c00d-f0d576a40884",
+                                    "label": "Graphite",
+                                    "name": "0d19f921-d7b2-9d42-c00d-f0d576a40884",
+                                    "readonly": false,
+                                    "value": "Graphite"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 7,
+                                    "id": "3e3fa468-b60c-a87d-0557-29d455020fb9",
+                                    "label": "White",
+                                    "name": "3e3fa468-b60c-a87d-0557-29d455020fb9",
+                                    "readonly": false,
+                                    "value": "White"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "58f958da-9cd1-c386-44d1-509f1e23d226",
+                                    "label": "Sierra Blue",
+                                    "name": "58f958da-9cd1-c386-44d1-509f1e23d226",
+                                    "readonly": false,
+                                    "value": "Sierra Blue"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "id": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "label": "Black",
+                                    "name": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "readonly": false,
+                                    "value": "Black"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "be9e8a44-b8d0-9441-5253-a9807a33ff2a",
+                                    "label": "Silver",
+                                    "name": "be9e8a44-b8d0-9441-5253-a9807a33ff2a",
+                                    "readonly": false,
+                                    "value": "Silver"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "c22abba5-50d7-e4eb-8f7a-9768ebd2a725",
+                                    "label": "Red",
+                                    "name": "c22abba5-50d7-e4eb-8f7a-9768ebd2a725",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 9,
+                                    "id": "d7b15897-938e-e942-bbce-64051cf474bc",
+                                    "label": "Sorta Seafoam",
+                                    "name": "d7b15897-938e-e942-bbce-64051cf474bc",
+                                    "readonly": false,
+                                    "value": "Sorta Seafoam"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "e8ba3066-ec2f-45aa-f6ac-821a77931092",
+                                    "label": "Gold",
+                                    "name": "e8ba3066-ec2f-45aa-f6ac-821a77931092",
+                                    "readonly": false,
+                                    "value": "Gold"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 6,
+                                    "id": "f4019fdc-ea60-d593-6fa2-f6bc61225efb",
+                                    "label": "Starlight",
+                                    "name": "f4019fdc-ea60-d593-6fa2-f6bc61225efb",
+                                    "readonly": false,
+                                    "value": "Starlight"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKVUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-STORAGE-CAP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Storage Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "05ded5d3-eaa9-1836-788c-6a81689a4305",
+                                    "label": "1 TB",
+                                    "name": "05ded5d3-eaa9-1836-788c-6a81689a4305",
+                                    "readonly": false,
+                                    "value": "1 TB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "label": "128 GB",
+                                    "name": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "readonly": false,
+                                    "value": "128 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "6e4b16ec-9de7-56b0-caf7-df61eee04dad",
+                                    "label": "512 GB",
+                                    "name": "6e4b16ec-9de7-56b0-caf7-df61eee04dad",
+                                    "readonly": false,
+                                    "value": "512 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "a5048dcc-4a3a-d97c-656d-928c22c40ad2",
+                                    "label": "256 GB",
+                                    "name": "a5048dcc-4a3a-d97c-656d-928c22c40ad2",
+                                    "readonly": false,
+                                    "value": "256 GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKWUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-PAYTERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "052961e7-ba92-4796-a76a-3d0e47d2715f",
+                                    "label": "12 Months",
+                                    "name": "052961e7-ba92-4796-a76a-3d0e47d2715f",
+                                    "readonly": false,
+                                    "value": "12 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "812b2102-2bfa-de46-f919-010592323819",
+                                    "label": "24 Months",
+                                    "name": "812b2102-2bfa-de46-f919-010592323819",
+                                    "readonly": false,
+                                    "value": "24 Months"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "a041659d-5831-8e01-99b5-5184c3b435b2",
+                                    "label": "Full Retail Price",
+                                    "name": "a041659d-5831-8e01-99b5-5184c3b435b2",
+                                    "readonly": false,
+                                    "value": "Full Retail Price"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Mobile-Device-PS_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "dcef0a71-1ba1-ad25-3815-34ac8bd95e5a",
+    "%vlocity_namespace%__GlobalKey__c": "b377aabe-4a9e-16ad-1a64-e6260fd78a1b",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "0c22e1-ff37f1-61bc8d-e31abf-1ee85da8e",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/0c22e1-ff37f1-61bc8d-e31abf-1ee85da8e",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Device Object Type",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Mobile-Device-PS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Mobile Device PS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "B2C-MOB-PS-DEVICE",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/b377aabe-4a9e-16ad-1a64-e6260fd78a1b"
+}

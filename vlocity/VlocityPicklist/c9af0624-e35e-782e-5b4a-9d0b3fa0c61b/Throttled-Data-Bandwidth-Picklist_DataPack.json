@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "B2C-PL-THR-BANDWIDTH",
+    "%vlocity_namespace%__DataType__c": "Number",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveFromDate__c": "",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "f9fdb677-d905-762f-3b39-f3e28ba35e6e",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c9af0624-e35e-782e-5b4a-9d0b3fa0c61b",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__PicklistValue__c": "Throttled-Data-Bandwidth-Picklist_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "Throttled Data Bandwidth Picklist",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/c9af0624-e35e-782e-5b4a-9d0b3fa0c61b"
+}

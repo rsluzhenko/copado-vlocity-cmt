@@ -1,0 +1,54 @@
+[
+    {
+        "%vlocity_namespace%__AdjustmentValue__c": "",
+        "%vlocity_namespace%__Amount__c": 1200,
+        "%vlocity_namespace%__CalculationType__c": "Simple",
+        "%vlocity_namespace%__Code__c": "One Time Std Cost_1200_USD_a2f8Y000006UiM9QAK",
+        "%vlocity_namespace%__CurrencyCode__c": "USD",
+        "%vlocity_namespace%__DisplayText__c": "One Time Std Cost 1200",
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey2__c": "1ea2ee81-e9fa-0bb5-8f79-11727ab2c089",
+        "%vlocity_namespace%__GlobalKey__c": "540da099-53e1-7b56-b2cc-9c07bf0a961d",
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsReusable__c": true,
+        "%vlocity_namespace%__LoyaltyAmount__c": "",
+        "%vlocity_namespace%__LoyaltyCode__c": "PTS",
+        "%vlocity_namespace%__ObjectTypeId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "20b4f77bd00b4f63a49ec8e08f3bf6a6",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/20b4f77bd00b4f63a49ec8e08f3bf6a6",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+        },
+        "%vlocity_namespace%__OfferId__c": "",
+        "%vlocity_namespace%__PerUsageAmount__c": 1,
+        "%vlocity_namespace%__PerUsageMeasurementId__c": "",
+        "%vlocity_namespace%__PerUsageUnitOfMeasure__c": "",
+        "%vlocity_namespace%__PriceListId__c": {
+            "%vlocity_namespace%__Code__c": "B2Csummer23",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PriceList__c/B2Csummer23",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+        },
+        "%vlocity_namespace%__PricingMatrixBindingData__c": "",
+        "%vlocity_namespace%__PricingMatrixId__c": "",
+        "%vlocity_namespace%__PricingVariableId__c": {
+            "%vlocity_namespace%__Code__c": "OT_STD_CST",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PricingVariable__c/OT_STD_CST",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingVariable__c"
+        },
+        "%vlocity_namespace%__PricingVariableType__c": "Cost",
+        "%vlocity_namespace%__ProductId__c": "",
+        "%vlocity_namespace%__PromotionId__c": "",
+        "%vlocity_namespace%__RuleInfo__c": "",
+        "%vlocity_namespace%__TimePlanId__c": "",
+        "%vlocity_namespace%__VersionNumber__c": "82b3e385-e893-5fb0-9725-f0486880b3b5",
+        "Name": "One Time Std Cost 1200",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PricingElement__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PricingElement__c/540da099-53e1-7b56-b2cc-9c07bf0a961d"
+    }
+]

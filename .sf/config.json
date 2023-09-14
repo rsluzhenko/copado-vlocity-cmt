@@ -1,3 +1,5 @@
 {
-  "target-org": "demo.org@communications-b2c.1678986782085"
+  "target-org": "demo.org@communications-b2c.1678986782085",
+  "org-instance-url": "https://demoorg-1678986782085.my.salesforce.com",
+  "org-api-version": "57.0"
 }

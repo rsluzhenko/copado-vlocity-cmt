@@ -1,0 +1,241 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Home-Security-Essential_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-CONTRACT-TERM": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-CONTRACT-DETAILS",
+                "Name": "Contract Details",
+                "displaySequence": 7020,
+                "id": "a0P8Y00000OG1iLUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKOUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-CONTRACT-TERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Contract Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "50314205-66e4-21f3-d682-40d94560d469",
+                                    "label": "3 Years",
+                                    "name": "50314205-66e4-21f3-d682-40d94560d469",
+                                    "readonly": false,
+                                    "value": "3 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "61c0114d-1839-7031-7ed0-5cab16ab48c6",
+                                    "label": "2 Years",
+                                    "name": "61c0114d-1839-7031-7ed0-5cab16ab48c6",
+                                    "readonly": false,
+                                    "value": "2 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "6295df91-bc82-93e5-fe8d-9a41396a8cc6",
+                                    "label": "10 Years",
+                                    "name": "6295df91-bc82-93e5-fe8d-9a41396a8cc6",
+                                    "readonly": false,
+                                    "value": "10 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "a090a8b2-c000-3aeb-4670-51b8adc38c7f",
+                                    "label": "5 Years",
+                                    "name": "a090a8b2-c000-3aeb-4670-51b8adc38c7f",
+                                    "readonly": false,
+                                    "value": "5 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "bc4a04d0-a83b-1648-eac0-4d7aecdd017b",
+                                    "label": "4 Years",
+                                    "name": "bc4a04d0-a83b-1648-eac0-4d7aecdd017b",
+                                    "readonly": false,
+                                    "value": "4 Years"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "c5b114ff-392e-d675-8ca4-e6dc968f825f",
+                                    "label": "Month-to-Month",
+                                    "name": "c5b114ff-392e-d675-8ca4-e6dc968f825f",
+                                    "readonly": false,
+                                    "value": "Month-to-Month"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "de8e52ba-3b75-55e6-4ead-e54fae90c191",
+                                    "label": "1 Year",
+                                    "name": "de8e52ba-3b75-55e6-4ead-e54fae90c191",
+                                    "readonly": false,
+                                    "value": "1 Year"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "3039295b-3209-b331-9d20-ce4644c3850e",
+    "%vlocity_namespace%__GlobalKey__c": "65940b89-0108-8eaf-cdde-c2fb756b4d25",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Home-Security-Essential_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__OverrideDefinition__c": "Home-Security-Essential_OverrideDefinitions.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Home-Security-Essential_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Home-Security-Essential_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "f733c82c-bd5d-3d32-bf42-ad589046f78e",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/f733c82c-bd5d-3d32-bf42-ad589046f78e",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductSpecName__c": "Home Security PS",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "Premium",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Plan",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Your affordable Home Security option",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Home Security",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Home Security Essential",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Home-Security-Essential_PricebookEntries.json",
+    "ProductCode": "B2C-HS-OFR-ESSENTIAL",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Home Security Essential",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "65940b89-0108-8eaf-cdde-c2fb756b4d25",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "65940b89-0108-8eaf-cdde-c2fb756b4d25",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/65940b89-0108-8eaf-cdde-c2fb756b4d25",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B2C-HS-OFR-ESSENTIAL",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/65940b89-0108-8eaf-cdde-c2fb756b4d25"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/65940b89-0108-8eaf-cdde-c2fb756b4d25"
+}

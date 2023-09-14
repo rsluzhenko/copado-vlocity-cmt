@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "c9198a-ac43ac-49e362-613d66-f70b57ae9",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Activate NordVPN Licenses",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Activate NordVPN Licenses",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b0a79e8b-d26a-1166-1141-faa80c871db4",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b0a79e8b-d26a-1166-1141-faa80c871db4",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "b0a79e8b-d26a-1166-1141-faa80c871db4",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Activate NordVPN",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Activate NordVPN/c9198a-ac43ac-49e362-613d66-f70b57ae9/Product2/b0a79e8b-d26a-1166-1141-faa80c871db4"
+    }
+]

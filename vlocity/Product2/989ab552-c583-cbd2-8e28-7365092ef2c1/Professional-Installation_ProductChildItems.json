@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__AllowIndependentLifeCycle__c": false,
+        "%vlocity_namespace%__ChildLineNumber__c": "1",
+        "%vlocity_namespace%__ChildProductId__c": "",
+        "%vlocity_namespace%__CollapseHierarchy__c": false,
+        "%vlocity_namespace%__GlobalKey__c": "78ba7147-1b35-1fa3-2f93-abac197e87c9",
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsRootProductChildItem__c": true,
+        "%vlocity_namespace%__IsVirtualItem__c": false,
+        "%vlocity_namespace%__MaxQuantity__c": 99999,
+        "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+        "%vlocity_namespace%__MinMaxDefaultQty__c": "0, 99999, 1",
+        "%vlocity_namespace%__MinQuantity__c": 0,
+        "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+        "%vlocity_namespace%__ParentProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "989ab552-c583-cbd2-8e28-7365092ef2c1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/989ab552-c583-cbd2-8e28-7365092ef2c1",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ParentProductName__c": "Professional Installation",
+        "%vlocity_namespace%__Quantity__c": 1,
+        "%vlocity_namespace%__RelationshipType__c": "Child",
+        "%vlocity_namespace%__SelectionMethodImplementation__c": "",
+        "%vlocity_namespace%__SeqNumber__c": 1,
+        "Name": "Root PCI",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/78ba7147-1b35-1fa3-2f93-abac197e87c9"
+    }
+]

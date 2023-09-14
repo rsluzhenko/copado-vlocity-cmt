@@ -1,0 +1,140 @@
+[
+    {
+        "%vlocity_namespace%__AddDate__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentComments__c": "",
+        "%vlocity_namespace%__AttributeAdjustmentUnits__c": "",
+        "%vlocity_namespace%__AttributeCategoryId__c": {
+            "%vlocity_namespace%__Code__c": "B2C-ATTRCAT-CONTRACT-DETAILS",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__AttributeCategory__c/B2C-ATTRCAT-CONTRACT-DETAILS",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeCategory__c"
+        },
+        "%vlocity_namespace%__AttributeDisplayNameOverride__c": "Contract Term",
+        "%vlocity_namespace%__AttributeDisplaySequence__c": "10",
+        "%vlocity_namespace%__AttributeId__c": {
+            "%vlocity_namespace%__Code__c": "B2C-ATTR-CONTRACT-TERM",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Attribute__c/B2C-ATTR-CONTRACT-TERM",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Attribute__c"
+        },
+        "%vlocity_namespace%__AttributeId__r.%vlocity_namespace%__Code__c": "B2C-ATTR-CONTRACT-TERM",
+        "%vlocity_namespace%__AttributeName__c": "Contract Term",
+        "%vlocity_namespace%__ConfigurationDetail__c": "",
+        "%vlocity_namespace%__ConfigurationStages__c": "",
+        "%vlocity_namespace%__CustomConfigUiTemplate__c": "",
+        "%vlocity_namespace%__Data__c": "",
+        "%vlocity_namespace%__DefaultPicklistEntryId__c": "",
+        "%vlocity_namespace%__DefaultPicklistValueId__c": "",
+        "%vlocity_namespace%__DisplaySequence__c": "7020",
+        "%vlocity_namespace%__EndStory__c": "",
+        "%vlocity_namespace%__ExcludedPicklistEntryIds__c": "",
+        "%vlocity_namespace%__ExcludedPicklistValues__c": "",
+        "%vlocity_namespace%__FormatMask__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "5495b09f-aa60-5164-e12f-fb367de30ce9",
+        "%vlocity_namespace%__HasRule__c": false,
+        "%vlocity_namespace%__HelpText__c": "",
+        "%vlocity_namespace%__IsActiveAssignment__c": true,
+        "%vlocity_namespace%__IsConfigurable__c": true,
+        "%vlocity_namespace%__IsDynamic__c": false,
+        "%vlocity_namespace%__IsEncrypted__c": false,
+        "%vlocity_namespace%__IsHidden__c": false,
+        "%vlocity_namespace%__IsNotAssetizable__c": false,
+        "%vlocity_namespace%__IsNotTranslatable__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsQueryDriven__c": false,
+        "%vlocity_namespace%__IsReadOnly__c": false,
+        "%vlocity_namespace%__IsRequired__c": false,
+        "%vlocity_namespace%__LookupFilter__c": "",
+        "%vlocity_namespace%__LookupObjectId__c": "",
+        "%vlocity_namespace%__LookupObjectTypeId__c": "",
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "022bd0e6-4bf0-f9e4-4916-a8ac930e60d9",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/022bd0e6-4bf0-f9e4-4916-a8ac930e60d9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ObjectType__c": "%vlocity_namespace%__ObjectClass__c",
+        "%vlocity_namespace%__OverrideContext__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "859e34b5-3e39-da2c-0a07-d07c5cca67f2",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Picklist__c/859e34b5-3e39-da2c-0a07-d07c5cca67f2",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__QueryCode__c": "",
+        "%vlocity_namespace%__QueryLabel__c": "",
+        "%vlocity_namespace%__RemoveDate__c": "",
+        "%vlocity_namespace%__RemovedFlag__c": false,
+        "%vlocity_namespace%__RuleData__c": "",
+        "%vlocity_namespace%__RuleMessage__c": "",
+        "%vlocity_namespace%__StartStory__c": "",
+        "%vlocity_namespace%__StyleClass__c": "",
+        "%vlocity_namespace%__UIDisplayType__c": "Dropdown",
+        "%vlocity_namespace%__ValidValuesData__c": [
+            {
+                "displayText": "Month-to-Month",
+                "id": "c5b114ff-392e-d675-8ca4-e6dc968f825f",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 10,
+                "value": "Month-to-Month"
+            },
+            {
+                "displayText": "1 Year",
+                "id": "de8e52ba-3b75-55e6-4ead-e54fae90c191",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 20,
+                "value": "1 Year"
+            },
+            {
+                "displayText": "2 Years",
+                "id": "61c0114d-1839-7031-7ed0-5cab16ab48c6",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 30,
+                "value": "2 Years"
+            },
+            {
+                "displayText": "3 Years",
+                "id": "50314205-66e4-21f3-d682-40d94560d469",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 40,
+                "value": "3 Years"
+            },
+            {
+                "displayText": "4 Years",
+                "id": "bc4a04d0-a83b-1648-eac0-4d7aecdd017b",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 50,
+                "value": "4 Years"
+            },
+            {
+                "displayText": "5 Years",
+                "id": "a090a8b2-c000-3aeb-4670-51b8adc38c7f",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 60,
+                "value": "5 Years"
+            },
+            {
+                "displayText": "10 Years",
+                "id": "6295df91-bc82-93e5-fe8d-9a41396a8cc6",
+                "isDefault": false,
+                "isEditable": false,
+                "sequence": 70,
+                "value": "10 Years"
+            }
+        ],
+        "%vlocity_namespace%__ValueDataType__c": "Picklist",
+        "%vlocity_namespace%__ValueDecoder__c": "",
+        "%vlocity_namespace%__ValueDescription__c": "",
+        "%vlocity_namespace%__Value__c": "",
+        "Name": "CLONED_01t5Y00000CymUtQAJ_VEPC_ATTR_CONTRACT_TERM",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__AttributeAssignment__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__AttributeAssignment__c/5495b09f-aa60-5164-e12f-fb367de30ce9"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfNKVTest",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "cfTestCommunicationForm",
+        "Id": "0Rb8Y000000pbPBSAY",
+        "MasterLabel": "testCommunicationForm",
+        "name": "cfTestCommunicationForm"
+    },
+    "previewType": "runTime",
+    "repeatCards": false
+}

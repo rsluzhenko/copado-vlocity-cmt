@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Pre-Provision FTTH Access_Activate FTTH Access",
+    "OrchestrationItemDefinition/Walled Garden Self Install_Internet Self-Install",
+    "OrchestrationPlanDefinition/Activate FTTH Access"
+]

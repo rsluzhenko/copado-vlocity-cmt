@@ -1,0 +1,16 @@
+[
+    "AttributeCategory/B2C-ATTRCAT-CLD-STOR",
+    "AttributeCategory/B2C-ATTRCAT-CONTRACT-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-INSTALLATION-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-INTERNET-DETAILS",
+    "AttributeCategory/B2C-ATTRCAT-MOB-DEV",
+    "AttributeCategory/B2C-ATTRCAT-MOB-FEAT",
+    "AttributeCategory/B2C-ATTRCAT-STREAMING-VIDEO",
+    "ObjectClass/b706be-dc7d5b-7543a5-76bbf8-de33a4c6a",
+    "OrchestrationPlanDefinition/Mobile Features Provisioning",
+    "VlocityPicklist/0cb63b94-74eb-01bb-1ea5-28736483e7f3",
+    "VlocityPicklist/4d0192d8-0b91-11e0-3172-c96891efb30c",
+    "VlocityPicklist/65c2b83d-1178-53b9-4cc4-f06087e00eb2",
+    "VlocityPicklist/7b2841ab-8595-eada-fbf7-75471e6629ef",
+    "VlocityPicklist/859e34b5-3e39-da2c-0a07-d07c5cca67f2"
+]

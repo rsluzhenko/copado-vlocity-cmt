@@ -1,0 +1,22 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfNKVTest2",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "cfNKVTest",
+        "Id": "0Rb8Y000000mNKoSAM",
+        "MasterLabel": "NKVTest",
+        "name": "cfNKVTest"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "templates": {
+        "0": {
+            "templateUrl": "TestNKV"
+        }
+    }
+}

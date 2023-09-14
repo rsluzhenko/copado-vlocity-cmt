@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ec4a9614-40cf-a17a-56f9-de4b0919cad3",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ec4a9614-40cf-a17a-56f9-de4b0919cad3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"Data Allowance\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Data Allowance\",\"destination_attr_code\":\"B2C-ATTR-MOB-DATA\",\"source_attr_code\":\"B2C-ATTR-MOB-DATA\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Throttled Data Speed\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Throttled Data Speed\",\"destination_attr_code\":\"B2C-ATTR-MOB-THR-DATA-SPEED\",\"source_attr_code\":\"B2C-ATTR-MOB-THR-DATA-SPEED\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"SMS/MMS Allowance\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"SMS/MMS Allowance\",\"destination_attr_code\":\"B2C-ATTR-MOB-SMSMMS\",\"source_attr_code\":\"B2C-ATTR-MOB-SMSMMS\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Voice Allowance\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Voice Allowance\",\"destination_attr_code\":\"B2C-ATTR-MOB-VOICE\",\"source_attr_code\":\"B2C-ATTR-MOB-VOICE\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"Premium Data Allowance\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Premium Data Allowance\",\"destination_attr_code\":\"B2C-ATTR-MOB-PREM-DATA\",\"source_attr_code\":\"B2C-ATTR-MOB-PREM-DATA\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "095d8a02-f62e-844e-3f28-98ca916d5b0f",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/095d8a02-f62e-844e-3f28-98ca916d5b0f",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "095d8a02-f62e-844e-3f28-98ca916d5b0f",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Mobile Plan PS --> Mobile Plan CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Mobile Plan PS --> Mobile Plan CFS/Product2/095d8a02-f62e-844e-3f28-98ca916d5b0f"
+    }
+]

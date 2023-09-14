@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Description__c": "Activation Start to End of Month",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2001-01-01",
+    "%vlocity_namespace%__EndTimePolicy__c": "Last Day of Month",
+    "%vlocity_namespace%__GlobalKey__c": "ab67f881-666e-e9e2-99ac-0f4b6d185f89",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsEndProratable__c": false,
+    "%vlocity_namespace%__IsStartProratable__c": false,
+    "%vlocity_namespace%__IsStartTimeDelayed__c": false,
+    "%vlocity_namespace%__StartTimeDelayOffsetUoM__c": "",
+    "%vlocity_namespace%__StartTimeDelayOffset__c": "",
+    "%vlocity_namespace%__StartTimePolicy__c": "Activation Start",
+    "Name": "Activation Start to End of Month",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__TimePolicy__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__TimePolicy__c/ab67f881-666e-e9e2-99ac-0f4b6d185f89"
+}

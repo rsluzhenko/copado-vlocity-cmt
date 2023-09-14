@@ -1,0 +1,23 @@
+[
+    {
+        "%vlocity_namespace%__FieldApiName__c": "%vlocity_namespace%__ParentClassId__c",
+        "%vlocity_namespace%__GlobalKey__c": "6a61fec6-8c0c-17c2-d77b-916851f86592",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__ObjectClassId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ac6dc0-2a46ae-59a578-5953c9-82728ff61",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/ac6dc0-2a46ae-59a578-5953c9-82728ff61",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+        },
+        "%vlocity_namespace%__ObjectType__c": "%vlocity_namespace%__ObjectClass__c",
+        "%vlocity_namespace%__SubClassId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ac6dc0-2a46ae-59a578-5953c9-82728ff61",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/ac6dc0-2a46ae-59a578-5953c9-82728ff61",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+        },
+        "Name": "6a61fec6-8c0c-17c2-d77b-916851f86592",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectFieldAttribute__c"
+    }
+]

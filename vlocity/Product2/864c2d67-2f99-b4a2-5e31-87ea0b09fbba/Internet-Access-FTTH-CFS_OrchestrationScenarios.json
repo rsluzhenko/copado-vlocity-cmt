@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "24f95028-0d45-4359-87df-b9c04e3a1e1b",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Activate FTTH Access",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Activate FTTH Access",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "864c2d67-2f99-b4a2-5e31-87ea0b09fbba",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/864c2d67-2f99-b4a2-5e31-87ea0b09fbba",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "864c2d67-2f99-b4a2-5e31-87ea0b09fbba",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Activate FTTH Access",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Activate FTTH Access/24f95028-0d45-4359-87df-b9c04e3a1e1b/Product2/864c2d67-2f99-b4a2-5e31-87ea0b09fbba"
+    }
+]

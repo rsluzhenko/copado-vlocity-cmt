@@ -1,0 +1,1978 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fa8fd7b8-1dc3-9ef4-f29e-0551920a1dc3",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "1ffe30",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a9ff512f-b6ba-d7ec-02ae-569d1f4cd4b6",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "69675d",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a17f9bfb-9367-f362-0560-fd9f7b942662",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8438d7",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Characteristic Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "494bf972-f901-ba61-4371-e7d6d881881c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "9a0efa",
+            "dataType": "Currency",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "NRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e73638d9-413a-bf6f-26bd-3f2030a29779",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "cd96ad",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "Characteristic Value"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bc099105-0235-5523-5825-3c5a8d71927c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "f563a4",
+            "dataType": "Currency",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "MRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "CPE Payment Type",
+            "Characteristic Value": "Buy",
+            "Source Product Code": "B2C-INET-PRD-AI1RTR",
+            "Source Product Name": "Internet Router"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 100
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "a583d8ed25d2f60849dfcedd55ffab36",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Cloud Storage Capacity",
+            "Characteristic Value": "1 TB",
+            "Source Product Code": "B2C-ADDON-OFR-CLDSTOR",
+            "Source Product Name": "Cloud Storage"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 7.5,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "bb1cba2724e8c353958c536590fde515",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Cloud Storage Capacity",
+            "Characteristic Value": "500 GB",
+            "Source Product Code": "B2C-ADDON-OFR-CLDSTOR",
+            "Source Product Name": "Cloud Storage"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 5,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "d07588091ff829e25dc781f21a4bfca6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e7db28d0-7bad-a984-72a6-6db339a188db",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "1 Year",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 32.5,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "94f9ffe8b06d9d0d0861e3106bae64c5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9be6e9a7-6653-4eb5-d074-d69787f1c192",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "1 Year",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 45,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "26bb58dfadb10279aefeb1ceeb8c085f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0126dcf0-655b-85f6-9bcd-f51f26ad1b6b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "1 Year",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 65,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "c5674c565cf36abc7e3f91510445c854",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1656d1d7-fd3d-e75f-3ba3-dea2e5df4a6e",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "10 Years",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 35,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "eef8756f86130804dc1c33f623c48838",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3fdeb115-b011-9934-04f6-bb9de64954f2",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "10 Years",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 50,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "8c297d27cde7e0485d6d7bb99a16046c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "15076fec-b60b-fceb-dc30-9d110c327053",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "10 Years",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 75,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "fa563328ee31e632c9aa528b19746618",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "727181b7-dc2c-5d28-65b9-bed2b5bed521",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "2 Years",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 30,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "707c93a54ef0011a70cfb21adf133c7d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2aece92f-c785-9e55-ff3f-5c12a78276de",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "2 Years",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 42.5,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "24839544d527dc72624516a1e72544c9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7734de1f-0676-0d33-7b59-f55808c52f71",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "2 Years",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 60,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "db6a4924b01386b0c75c57c425be29d9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "008daa9a-4fcc-03ec-031e-e6300cb89de0",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "3 Years",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 28,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "8e1f7758cf7e031ce020353c863123ea",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bfd91650-ff7b-8896-3bc2-57ee272194e8",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "3 Years",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 40,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "c192bcc3565c188a7657421fbe2c01f2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "47b2e1a1-447a-abf9-2a20-875972516bcd",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "3 Years",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 55,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "316947773e9b7948892d9e625177225d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "08e21ee7-ac68-fc1f-e6b3-05a944b06d04",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "4 Years",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 35,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "0cc2b45a3291f0b06b790d1a8dca1322",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7422981d-b64b-a79a-d073-185e9c5ab716",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "4 Years",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 50,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "9c8c4b7de439f3a3cf5ade1b9d11bda6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bb203b67-20b0-ad6e-9dd9-93c6bc43bd47",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "4 Years",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 75,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "698b5cb0eada46b77fcb0dddbdd08d72",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7aa7c0a1-1615-fc03-872d-4fac81be71fe",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "5 Years",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 35,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "0b5a0bbdaf31f67c5770b8466692d498",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7a94155b-1433-b2da-5ee4-fa537bd0abe9",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "5 Years",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 50,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "cff6aea84bc4fcee0c9607e7e1643c26",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1d61e360-dc30-1cbf-127f-5fdf8cc4747f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "5 Years",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 75,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "65c6ec15e7064715dd42548ab7b9c42c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "058fe532-19c1-846a-2ee5-9ded7f66669b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "Month-to-Month",
+            "Source Product Code": "B2C-INET-OFR-01-ESSL",
+            "Source Product Name": "Blaze Internet Essential"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 35,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "f2b4ae0f4bdb77b0f3ebd71a05c815b5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e2dfc3ed-391d-86bf-6c80-3851c65a7667",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "Month-to-Month",
+            "Source Product Code": "B2C-INET-OFR-01-PREM",
+            "Source Product Name": "Blaze Internet Premium"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 75,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "aabce49b0c4c167bee8723ffef9610a8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d16236cd-25be-0a2c-acfb-ea70b430cb6b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Contract Term",
+            "Characteristic Value": "Month-to-Month",
+            "Source Product Code": "B2C-INET-OFR-01-SUP",
+            "Source Product Name": "Blaze Internet Supreme"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 75,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-04-09T21:20:29.000Z",
+        "Name": "aa08d5bf8f98484c59ae84e412335d0b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months; 1 TB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 124.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "363a312d3bc4ab10f2e41ec5bd0df3f2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months; 1 TB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 133.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "f801d193e9ac778dec141b3e0a9a7e87",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-GALAXY-S21FE",
+            "Source Product Name": "Samsung Galaxy S21 FE 5G"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 58.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "4f09a01157020477d50fd0182643fe75",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-GALAXY-S21ULTRA",
+            "Source Product Name": "Samsung Galaxy S21 Ultra 5G"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 99.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "df38494027590f1da432755269bcf460",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 66.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "0f7ed46cb5f0c41c1552ccfe50a02e0c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 83.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "e63a1f89fc54fac5fd3fabbd2b97c050",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 91.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "f025ef1816c0a67d440d468b01bfbedf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6",
+            "Source Product Name": "Google Pixel 6"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 58.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "18f01ec5e61f609682d954085a7a83d8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 74.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "186792af9178c48dd1beb431f6cb28a8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 74.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "544e32af36cb49bdbe47ecd74b0f9629",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 91.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "53304b5229c56bd0b15ab57ae805d4dc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 99.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "ddc36034d93fe844d910f6aabac9f690",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6",
+            "Source Product Name": "Google Pixel 6"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 66.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "016a5d46253f17dd212dd4203552b654",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 83.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "432ad0e030fa88d27e8c3ebd3c48596d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 91.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "bb079b6ece88b8ed86b0867d6f94ed08",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 108.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "d600dd6accc0e904dd03abf90e1065dd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 116.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "e2cb098fddf2c034de172ae690da75b5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "12 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 91.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "2a44a7962e85aa4cf79cd2426a14beeb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months; 1 TB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 62.49,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "2398080f2085967bde3af2590490ee8e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months; 1 TB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 66.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "e25af57713b64512d79f3ebdbede5f15",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-GALAXY-S21FE",
+            "Source Product Name": "Samsung Galaxy S21 FE 5G"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 29.16,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "8a9f691a1fcf64f9acad2015c52bc449",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-GALAXY-S21ULTRA",
+            "Source Product Name": "Samsung Galaxy S21 Ultra 5G"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 49.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "d067045036b052afd1c807cc7a31db3f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 33.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "ffc90e252ed3a042cd9b6a783774896c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 41.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "b34d001d091159991b211604c955f233",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 45.83,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "ebed6a97945d92b90d939f8e56e049ee",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6",
+            "Source Product Name": "Google Pixel 6"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 29.16,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "ba95cd48a06ad3ee31352de10390ae28",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 37.49,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "034cd8ce191f47970c8c5a474fe47ba4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 37.45,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "0dc01988452d46ca1225517679176587",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 45.83,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "a6e1138b834ca5778104bf93ef2363bb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 49.99,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "670a8c87d4d43f8af92e14d442fabd1a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6",
+            "Source Product Name": "Google Pixel 6"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 33.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "1e370236962514206dffa61d03b79bbc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 41.66,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "b643911e87b35111f80e4ca2b0278b53",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 45.83,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "34086d10d34cc9546c525627f9dfd60d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 54.16,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "2ae37ea9301207288eca6e664945322b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 58.33,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "3bba30dccff5e2898c3c7254f351aa94",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "24 Months;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 45.83,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "b2cd64d4b9e48ead39a1a6800df3c8f1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;1 TB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1499.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "ac98ef2e6bbfdeb926fdfd86e5d9d98b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;1 TB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1599.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "6bf4cbdbf2ba569cd3201747c3abbe38",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-GALAXY-S21FE",
+            "Source Product Name": "Samsung Galaxy S21 FE 5G"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 699.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "c9523ff99d81d1b760b17a6fd7f695e1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-GALAXY-S21ULTRA",
+            "Source Product Name": "Samsung Galaxy S21 Ultra 5G"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1199.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "ecfe78f5b6f1dcd29225cb44b1b741b8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 799.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "31a9fcc23adff962c93cc68b6880fc44",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 999.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "01c60ee075962d86821ff30a0457d8a2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1099.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "54e69e47175a6f0df1d9eab342bcd2e8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6",
+            "Source Product Name": "Google Pixel 6"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 699.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "b2b3b746eecb3a780ecb9a5bc78ec6c1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;128 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 899.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "d08624f83ffe9b6acf59040e80c1522c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 899.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "59dd686c98ebda09f7afcfcd0c63cbed",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1099.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "5090a40a0fab3c019dcc9ead23da6d88",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1199.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "03223d0b7e14087f051b8e07d4d622ba",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6",
+            "Source Product Name": "Google Pixel 6"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 799.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "988f9c842d68a863e80aa247da9aba1b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;256 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 999.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "8ce3ac1d420cb9cb59049c61fedb7fb8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13",
+            "Source Product Name": "Apple iPhone 13"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1099.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "17518100a8e5536e18696e7c321955cd",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PRO",
+            "Source Product Name": "Apple iPhone 13 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1299.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "5ec4244a3f599e40f9ad20cd2aedcf26",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-IPHONE13-PROMAX",
+            "Source Product Name": "Apple iPhone 13 Pro Max"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1399.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "f68d94c6cd9cb533f34ba11406ee3b95",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Payment Term;Storage Capacity",
+            "Characteristic Value": "Full Retail Price;512 GB",
+            "Source Product Code": "B2C-MOB-OFR-PIXEL6-PRO",
+            "Source Product Name": "Google Pixel 6 Pro"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 0,
+            "NRC": 1099.99
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "7044050c733fb61584ee95c2ae9eaeff",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Vanity Number",
+            "Characteristic Value": "Yes",
+            "Source Product Code": "B2C-MOB-PRD-PHONE-NUM",
+            "Source Product Name": "Phone Number"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": 5,
+            "NRC": 0
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2021-01-01T05:00:00.000Z",
+        "Name": "14584671337cd4537b475debbc60644a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

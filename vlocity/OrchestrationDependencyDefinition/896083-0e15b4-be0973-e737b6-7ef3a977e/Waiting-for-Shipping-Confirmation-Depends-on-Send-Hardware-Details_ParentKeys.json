@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Send Hardware Details for Shipping_Mobile Hardware Provisioning",
+    "OrchestrationItemDefinition/Wait for Shipping Confirmation_Mobile Hardware Provisioning",
+    "OrchestrationPlanDefinition/Mobile Hardware Provisioning"
+]

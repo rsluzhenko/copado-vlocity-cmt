@@ -1,0 +1,276 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Samsung-Galaxy-S21-FE-5G_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-DEVICE-COLOR": "Black",
+        "B2C-ATTR-PAYTERM": "Full Retail Price",
+        "B2C-ATTR-STORAGE-CAP": "128 GB"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-MOB-DEV",
+                "Name": "Mobile Device Details",
+                "displaySequence": 8100,
+                "id": "a0P8Y00000OG1iOUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKUUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-DEVICE-COLOR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 7,
+                                    "id": "3e3fa468-b60c-a87d-0557-29d455020fb9",
+                                    "label": "White",
+                                    "name": "3e3fa468-b60c-a87d-0557-29d455020fb9",
+                                    "readonly": false,
+                                    "value": "White"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "id": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "label": "Black",
+                                    "name": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "readonly": false,
+                                    "value": "Black"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKVUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-STORAGE-CAP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Storage Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "label": "128 GB",
+                                    "name": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "readonly": false,
+                                    "value": "128 GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKWUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-PAYTERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "052961e7-ba92-4796-a76a-3d0e47d2715f",
+                                    "label": "12 Months",
+                                    "name": "052961e7-ba92-4796-a76a-3d0e47d2715f",
+                                    "readonly": false,
+                                    "value": "12 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "812b2102-2bfa-de46-f919-010592323819",
+                                    "label": "24 Months",
+                                    "name": "812b2102-2bfa-de46-f919-010592323819",
+                                    "readonly": false,
+                                    "value": "24 Months"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "a041659d-5831-8e01-99b5-5184c3b435b2",
+                                    "label": "Full Retail Price",
+                                    "name": "a041659d-5831-8e01-99b5-5184c3b435b2",
+                                    "readonly": false,
+                                    "value": "Full Retail Price"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "bacd1a64-f4a1-d829-2095-08e5e205f373",
+    "%vlocity_namespace%__GlobalKey__c": "b1332850-02d8-784d-ed2a-267499e3d6a8",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Samsung-Galaxy-S21-FE-5G_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Samsung-Galaxy-S21-FE-5G_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Samsung-Galaxy-S21-FE-5G_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "b377aabe-4a9e-16ad-1a64-e6260fd78a1b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/b377aabe-4a9e-16ad-1a64-e6260fd78a1b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductSpecName__c": "Mobile Device PS",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Hardware",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Handset",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Take your everyday experiences to the next level with the phone that's designed to fuel the passions of every fan. Whether you're a gaming guru, social star or fashionista, Samsung Galaxy S21 FE 5G is jam-packed with features that help you get more out of whatever you're into, including an all-day intelligent battery, a powerful processor, a smooth and strong display, a triple-lens camera with portrait and Dual Recording mode and more.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Samsung Galaxy S21 FE 5G",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Samsung-Galaxy-S21-FE-5G_PricebookEntries.json",
+    "ProductCode": "B2C-MOB-OFR-GALAXYS21FE",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Samsung Galaxy S21 FE 5G",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "b1332850-02d8-784d-ed2a-267499e3d6a8",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "b1332850-02d8-784d-ed2a-267499e3d6a8",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/b1332850-02d8-784d-ed2a-267499e3d6a8",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B2C-MOB-OFR-GALAXYS21FE",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/b1332850-02d8-784d-ed2a-267499e3d6a8"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/b1332850-02d8-784d-ed2a-267499e3d6a8"
+}

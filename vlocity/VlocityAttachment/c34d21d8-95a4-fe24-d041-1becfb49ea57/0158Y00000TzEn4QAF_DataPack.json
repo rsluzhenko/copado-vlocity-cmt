@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c34d21d8-95a4-fe24-d041-1becfb49ea57",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "b1332850-02d8-784d-ed2a-267499e3d6a8",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/b1332850-02d8-784d-ed2a-267499e3d6a8",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "bacd1a64-f4a1-d829-2095-08e5e205f373",
+    "%vlocity_namespace%__SequenceNumber__c": "",
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/Samsung%20Galaxy S21%20FE%205G.jpeg",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "0158Y00000TzEn4QAF",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/c34d21d8-95a4-fe24-d041-1becfb49ea57"
+}

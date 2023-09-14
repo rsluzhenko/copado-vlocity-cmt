@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "recordId",
+                "val": "0015e000003aDH5AAM"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "BillAccountId": "{recordId}"
+            },
+            "ipMethod": "Account_BillingAccount_Statement",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleRightBusinessAccountStatementCard.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleRightBusinessAccountStatementCard/sfi/1/1621528149703",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demoConsoleRightAccountStatementCard/sfi/1/1620940269831",
+    "%vlocity_namespace%__SampleData__c": "{\"StatementId\":\"a1v5e000000Tcb3AAC\",\"CurrentBalance\":\"$155,000.00\",\"PreviousBalance\":\"$88,000.00\",\"PeriodEndDate\":\"2019-10-31\",\"PeriodStartDate\":\"2019-10-01\",\"DueDate\":\"01/31/2019\",\"TotalBalanceDue\":\"$155,000.00\"}",
+    "%vlocity_namespace%__Styles__c": "{\"styleObjects\":{\"grid-left-col\":{\"sizeClass\":\"slds-size_6-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"6\"},\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#6A7DA4\"},\"inlineStyle\":\"\",\"class\":\" \",\"style\":\"     border-color:#D8DDE6;       color:#6A7DA4; \",\"selectedStyles\":\"grid-left-col\"},\"grid-right-col\":{\"sizeClass\":\"slds-size_6-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"6\"},\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#666666\"},\"inlineStyle\":\"\",\"class\":\" \",\"style\":\"     border-color:#D8DDE6;       color:#666666; \",\"selectedStyles\":\"grid-right-col\"},\"grid-button\":{\"size\":{\"isResponsive\":false,\"default\":\"3\"},\"sizeClass\":\"slds-size_3-of-12 \",\"padding\":[{\"type\":\"around\",\"size\":\"xx-small\",\"label\":\"around:xx-small\"}],\"margin\":[{\"type\":\"left\",\"size\":\"x-small\",\"label\":\"left:x-small\"}],\"background\":{\"color\":\"#ffffff\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"1\",\"color\":\"#D8DDE6\",\"radius\":\"4px\",\"style\":\"solid\"},\"elementStyleProperties\":{\"styles\":{\"label\":{\"textAlign\":\"center\"}}},\"text\":{\"align\":\"\",\"color\":\"#0070D2\"},\"inlineStyle\":\"\",\"class\":\"slds-p-around_xx-small slds-m-left_x-small \",\"style\":\"background-color:#ffffff;     border-color:#D8DDE6; border-width:1px; border-radius:4px; border-style:solid;    color:#0070D2; \",\"selectedStyles\":\"grid-button\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleRightBusinessAccountStatementCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleRightBusinessAccountStatementCard"
+}

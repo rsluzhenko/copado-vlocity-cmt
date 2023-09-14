@@ -1,0 +1,36 @@
+[
+    {
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2ee94319-fb76-a3d2-6c5a-cc81c94c67c3",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/2ee94319-fb76-a3d2-6c5a-cc81c94c67c3",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__RuleId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "de6d37e3-6d18-f6d3-18e2-2650be5a9993",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Rule__c/de6d37e3-6d18-f6d3-18e2-2650be5a9993",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c"
+        },
+        "%vlocity_namespace%__RuleType__c": "Qualification",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__RuleAssignment__c"
+    },
+    {
+        "%vlocity_namespace%__ObjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "49c7c39e-e355-b883-4cfe-d741fc11c656",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/49c7c39e-e355-b883-4cfe-d741fc11c656",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__RuleId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "de6d37e3-6d18-f6d3-18e2-2650be5a9993",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Rule__c/de6d37e3-6d18-f6d3-18e2-2650be5a9993",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c"
+        },
+        "%vlocity_namespace%__RuleType__c": "Qualification",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__RuleAssignment__c"
+    }
+]

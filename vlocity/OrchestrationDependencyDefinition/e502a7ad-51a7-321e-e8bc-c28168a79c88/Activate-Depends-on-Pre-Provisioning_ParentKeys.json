@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Activate Access_Activate FTTH Access",
+    "OrchestrationItemDefinition/Pre-Provision FTTH Access_Activate FTTH Access",
+    "OrchestrationPlanDefinition/Activate FTTH Access"
+]

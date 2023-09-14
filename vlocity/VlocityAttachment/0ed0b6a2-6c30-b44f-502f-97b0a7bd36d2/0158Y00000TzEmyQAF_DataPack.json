@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "0ed0b6a2-6c30-b44f-502f-97b0a7bd36d2",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "49c7c39e-e355-b883-4cfe-d741fc11c656",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/49c7c39e-e355-b883-4cfe-d741fc11c656",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "693ea4e4-e30a-7780-78ed-d2b194940486",
+    "%vlocity_namespace%__SequenceNumber__c": "",
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/Apple%20iPhone%2013.jpeg",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "0158Y00000TzEmyQAF",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/0ed0b6a2-6c30-b44f-502f-97b0a7bd36d2"
+}

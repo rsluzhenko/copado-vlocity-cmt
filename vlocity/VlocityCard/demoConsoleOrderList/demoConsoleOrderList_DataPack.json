@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 3,
+                "name": "recordId",
+                "val": "0015e000008l31MAAQ"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "Demo_GetAccountOrders",
+            "bundleType": "",
+            "dsDelay": "",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleOrderList.json",
+    "%vlocity_namespace%__Description__c": "Console order list card",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleOrderList/sfi/2/1650634144943",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demoConsoleMiddleOrderCard/sfi/1/1620937479072",
+    "%vlocity_namespace%__SampleData__c": "[{\"OrderTotal\":\"$0.00\",\"RecurringTotal\":\"$124.98\",\"OneTimeTotal\":\"$0.00\",\"OrderStartDate\":\"2021-07-27\",\"AccountName\":\"Molina Family - San Francisco Residence\",\"OrderFulfilmentStatus\":\"Activated\",\"OrderStatus\":\"Activated\",\"OrderName\":\"Initial Multiplay Internet Order\",\"ShortOrderNumber\":\"258\",\"OrderNumber\":\"00000258\",\"AccountId\":\"0015e000008l31MAAQ\",\"OrderId\":\"8015e0000000va1AAA\"},{\"OrderTotal\":\"$0.00\",\"RecurringTotal\":\"$31.98\",\"OneTimeTotal\":\"$0.00\",\"OrderStartDate\":\"2021-07-27\",\"AccountName\":\"Molina Family - San Francisco Residence\",\"OrderFulfilmentStatus\":\"Activated\",\"OrderStatus\":\"Activated\",\"OrderName\":\"Add Streaming Services and VPN\",\"ShortOrderNumber\":\"259\",\"OrderNumber\":\"00000259\",\"AccountId\":\"0015e000008l31MAAQ\",\"OrderId\":\"8015e0000000va6AAA\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"styleObjects\":{\"line-item-bottom\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[{\"type\":\"top\",\"size\":\"xx-small\",\"label\":\"top:xx-small\"},{\"type\":\"bottom\",\"size\":\"xx-small\",\"label\":\"bottom:xx-small\"}],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"border_bottom\",\"width\":\"1\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#5F7399\"},\"inlineStyle\":\"\",\"class\":\"slds-border_bottom slds-p-top_xx-small slds-p-bottom_xx-small \",\"style\":\"     border-color:#D8DDE6; border-width:1px;      color:#5F7399; \",\"selectedStyles\":\"line-item-bottom\"},\"line-item-last\":{\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[{\"type\":\"top\",\"size\":\"xx-small\",\"label\":\"top:xx-small\"},{\"type\":\"bottom\",\"size\":\"xx-small\",\"label\":\"bottom:xx-small\"}],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#5F7399\"},\"inlineStyle\":\"\",\"class\":\"slds-p-top_xx-small slds-p-bottom_xx-small \",\"style\":\"     border-color:#D8DDE6;       color:#5F7399; \",\"selectedStyles\":\"line-item-last\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "demoConsoleOrderList",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleOrderList"
+}

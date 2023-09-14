@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "58d940ab-dbb9-3eba-5f89-4a8bf7b24320",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "8657d2ac-a386-3b69-5f3e-9222ba933712",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8657d2ac-a386-3b69-5f3e-9222ba933712",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "77122283-4bb9-ff6c-e7f4-d469014e28c0",
+    "%vlocity_namespace%__SequenceNumber__c": "",
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/Samsung%20Galaxy S21%20Ultra%205G.jpeg",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "0158Y00000TzEn3QAF",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/58d940ab-dbb9-3eba-5f89-4a8bf7b24320"
+}

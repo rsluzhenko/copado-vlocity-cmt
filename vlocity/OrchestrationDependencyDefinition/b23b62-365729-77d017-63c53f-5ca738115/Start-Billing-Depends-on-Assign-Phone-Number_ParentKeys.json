@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Send Request for Phone Number Assignment_Phone Number Assignment",
+    "OrchestrationItemDefinition/Start Billing_Mobile Plan E2E",
+    "OrchestrationPlanDefinition/Phone Number Assignment"
+]

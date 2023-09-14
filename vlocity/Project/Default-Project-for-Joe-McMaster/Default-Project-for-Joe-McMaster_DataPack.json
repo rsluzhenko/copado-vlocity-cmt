@@ -1,0 +1,17 @@
+{
+    "%vlocity_namespace%__Creator__c": "Joe McMaster",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "93d96296-5e10-f6ca-313d-8d3676222e8d",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsDefault__c": true,
+    "%vlocity_namespace%__LastModifier__c": "Joe McMaster",
+    "%vlocity_namespace%__OriginalCreatedDate__c": "2021-07-15T16:15:37.000Z",
+    "%vlocity_namespace%__ProjectItem__c": "Default-Project-for-Joe-McMaster_ProjectItems.json",
+    "%vlocity_namespace%__ProjectOwner__c": "Joe McMaster",
+    "%vlocity_namespace%__Status__c": "Draft",
+    "Name": "Default Project for Joe McMaster",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Project__c/93d96296-5e10-f6ca-313d-8d3676222e8d"
+}

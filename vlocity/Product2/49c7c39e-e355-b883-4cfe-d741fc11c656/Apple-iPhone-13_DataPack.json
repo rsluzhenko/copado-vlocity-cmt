@@ -1,0 +1,318 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Apple-iPhone-13_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-DEVICE-COLOR": "Black",
+        "B2C-ATTR-PAYTERM": "Full Retail Price",
+        "B2C-ATTR-STORAGE-CAP": "128 GB"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-MOB-DEV",
+                "Name": "Mobile Device Details",
+                "displaySequence": 8100,
+                "id": "a0P8Y00000OG1iOUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKUUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-DEVICE-COLOR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "58f958da-9cd1-c386-44d1-509f1e23d226",
+                                    "label": "Sierra Blue",
+                                    "name": "58f958da-9cd1-c386-44d1-509f1e23d226",
+                                    "readonly": false,
+                                    "value": "Sierra Blue"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "id": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "label": "Black",
+                                    "name": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "readonly": false,
+                                    "value": "Black"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "c22abba5-50d7-e4eb-8f7a-9768ebd2a725",
+                                    "label": "Red",
+                                    "name": "c22abba5-50d7-e4eb-8f7a-9768ebd2a725",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 6,
+                                    "id": "f4019fdc-ea60-d593-6fa2-f6bc61225efb",
+                                    "label": "Starlight",
+                                    "name": "f4019fdc-ea60-d593-6fa2-f6bc61225efb",
+                                    "readonly": false,
+                                    "value": "Starlight"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKVUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-STORAGE-CAP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Storage Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "label": "128 GB",
+                                    "name": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "readonly": false,
+                                    "value": "128 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "6e4b16ec-9de7-56b0-caf7-df61eee04dad",
+                                    "label": "512 GB",
+                                    "name": "6e4b16ec-9de7-56b0-caf7-df61eee04dad",
+                                    "readonly": false,
+                                    "value": "512 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "a5048dcc-4a3a-d97c-656d-928c22c40ad2",
+                                    "label": "256 GB",
+                                    "name": "a5048dcc-4a3a-d97c-656d-928c22c40ad2",
+                                    "readonly": false,
+                                    "value": "256 GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKWUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-PAYTERM",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Term",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "052961e7-ba92-4796-a76a-3d0e47d2715f",
+                                    "label": "12 Months",
+                                    "name": "052961e7-ba92-4796-a76a-3d0e47d2715f",
+                                    "readonly": false,
+                                    "value": "12 Months"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "812b2102-2bfa-de46-f919-010592323819",
+                                    "label": "24 Months",
+                                    "name": "812b2102-2bfa-de46-f919-010592323819",
+                                    "readonly": false,
+                                    "value": "24 Months"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "a041659d-5831-8e01-99b5-5184c3b435b2",
+                                    "label": "Full Retail Price",
+                                    "name": "a041659d-5831-8e01-99b5-5184c3b435b2",
+                                    "readonly": false,
+                                    "value": "Full Retail Price"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2023-03-27",
+    "%vlocity_namespace%__EndDate__c": "2023-04-03",
+    "%vlocity_namespace%__EndOfLifeDate__c": "2023-04-03T22:00:00.000Z",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2023-03-28T22:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "693ea4e4-e30a-7780-78ed-d2b194940486",
+    "%vlocity_namespace%__GlobalKey__c": "49c7c39e-e355-b883-4cfe-d741fc11c656",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Released",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Apple-iPhone-13_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Apple-iPhone-13_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Apple-iPhone-13_ProductChildItems.json",
+    "%vlocity_namespace%__ProductConfigurationProcedure__c": "Apple-iPhone-13_ProductConfigurationProcedures.json",
+    "%vlocity_namespace%__ProductSpecId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "b377aabe-4a9e-16ad-1a64-e6260fd78a1b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/b377aabe-4a9e-16ad-1a64-e6260fd78a1b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductSpecName__c": "Mobile Device PS",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__RuleAssignment__c": "Apple-iPhone-13_RuleAssignments.json",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "2023-04-03T22:00:00.000Z",
+    "%vlocity_namespace%__SellingStartDate__c": "2023-03-27T22:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Hardware",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Handset",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Iphone 13 tope de gama",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Apple iPhone 13",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Apple-iPhone-13_PricebookEntries.json",
+    "ProductCode": "B2C-MOB-OFR-IPHONE13",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Apple iPhone 13",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "49c7c39e-e355-b883-4cfe-d741fc11c656",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "49c7c39e-e355-b883-4cfe-d741fc11c656",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/49c7c39e-e355-b883-4cfe-d741fc11c656",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B2C-MOB-OFR-IPHONE13",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/49c7c39e-e355-b883-4cfe-d741fc11c656"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/49c7c39e-e355-b883-4cfe-d741fc11c656"
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ec4a9614-40cf-a17a-56f9-de4b0919cad3",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ec4a9614-40cf-a17a-56f9-de4b0919cad3",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_attr_name\":\"International Bandwidth\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Bandwidth\",\"destination_attr_code\":\"B2C-ATTR-INT-BAND\",\"source_attr_code\":\"B2C-ATTR-INT-BAND\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"International SMS/MMS\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International SMS/MMS\",\"destination_attr_code\":\"B2C-ATTR-INT-SMSMMS\",\"source_attr_code\":\"B2C-ATTR-INT-SMSMMS\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"International Data\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Data\",\"destination_attr_code\":\"B2C-ATTR-INT-DATA\",\"source_attr_code\":\"B2C-ATTR-INT-DATA\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"International Plan Region\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Plan Region\",\"destination_attr_code\":\"B2C-ATTR-INT-REGION\",\"source_attr_code\":\"B2C-ATTR-INT-REGION\",\"source_type\":\"Attribute\"},{\"source_attr_name\":\"International Voice\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"International Voice\",\"destination_attr_code\":\"B2C-ATTR-INT-VOICE\",\"source_attr_code\":\"B2C-ATTR-INT-VOICE\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ad16d3a6-fd23-8337-283f-b20718325e75",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ad16d3a6-fd23-8337-283f-b20718325e75",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "ad16d3a6-fd23-8337-283f-b20718325e75",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "International Plan PS --> Mobile Plan CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/International Plan PS --> Mobile Plan CFS/Product2/ad16d3a6-fd23-8337-283f-b20718325e75"
+    }
+]

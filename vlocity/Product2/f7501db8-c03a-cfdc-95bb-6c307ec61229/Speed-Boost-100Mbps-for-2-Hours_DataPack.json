@@ -1,0 +1,296 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Speed-Boost-100Mbps-for-2-Hours_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-SPEEDBOOST-BAND": "100",
+        "B2C-ATTR-SPEEDBOOST-DATA": "5000",
+        "B2C-ATTR-SPEEDBOOST-DUR": "2"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-SPEEDBOOST",
+                "Name": "Speed Boost Details",
+                "displaySequence": 8800,
+                "id": "a0P8Y00000OG1iTUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKpUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SPEEDBOOST-DATA",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Speed Boost Data Allowance",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "0dca1ab1-ab42-aa6f-14fa-4e98976d66ff",
+                                    "label": "15 GB",
+                                    "name": "0dca1ab1-ab42-aa6f-14fa-4e98976d66ff",
+                                    "readonly": true,
+                                    "value": "15000"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "c008498e-ba46-9625-b845-1da1c32acb21",
+                                    "label": "5 GB",
+                                    "name": "c008498e-ba46-9625-b845-1da1c32acb21",
+                                    "readonly": true,
+                                    "value": "5000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "f5d0e553-9463-b66e-2c5b-4ea3dec1055c",
+                                    "label": "512 MB",
+                                    "name": "f5d0e553-9463-b66e-2c5b-4ea3dec1055c",
+                                    "readonly": true,
+                                    "value": "512"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKrUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SPEEDBOOST-DUR",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Speed Boost Duration",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "12237b3e-1031-04ff-8df9-9edb01ef7274",
+                                    "label": "12 Hours",
+                                    "name": "12237b3e-1031-04ff-8df9-9edb01ef7274",
+                                    "readonly": true,
+                                    "value": "12"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "805f6859-7ed0-8024-0a66-7750ebc30790",
+                                    "label": "1 Day",
+                                    "name": "805f6859-7ed0-8024-0a66-7750ebc30790",
+                                    "readonly": true,
+                                    "value": "24"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "9b6ee1c5-a822-718d-8456-7654a67be9ae",
+                                    "label": "2 Hours",
+                                    "name": "9b6ee1c5-a822-718d-8456-7654a67be9ae",
+                                    "readonly": true,
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKqUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SPEEDBOOST-BAND",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Speed Boost Bandwidth",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "0061b69d-e4e1-e7e6-33db-0a1330b80901",
+                                    "label": "50 Mbps",
+                                    "name": "0061b69d-e4e1-e7e6-33db-0a1330b80901",
+                                    "readonly": true,
+                                    "value": "50"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "e277e25a-a809-7e27-3550-87ad26a39ad3",
+                                    "label": "100 Mbps",
+                                    "name": "e277e25a-a809-7e27-3550-87ad26a39ad3",
+                                    "readonly": true,
+                                    "value": "100"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "b87adb10-7681-1dff-3a69-e66e853ccaaa",
+    "%vlocity_namespace%__GlobalKey__c": "f7501db8-c03a-cfdc-95bb-6c307ec61229",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Speed-Boost-100Mbps-for-2-Hours_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Speed-Boost-100Mbps-for-2-Hours_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Speed-Boost-100Mbps-for-2-Hours_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "d9d5d63b-f31b-31de-82fc-07df87f1b952",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/d9d5d63b-f31b-31de-82fc-07df87f1b952",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductSpecName__c": "Speed Boost PS",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Add On",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Ensure high speed connection, with speeds of 100Mbps for 2 hours.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Speed Boost - 100Mbps for 2 Hours",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Speed-Boost-100Mbps-for-2-Hours_PricebookEntries.json",
+    "ProductCode": "B2C-MOB-OFR-100MBPS-2HRS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Speed Boost - 100Mbps for 2 Hours",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "f7501db8-c03a-cfdc-95bb-6c307ec61229",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "f7501db8-c03a-cfdc-95bb-6c307ec61229",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/f7501db8-c03a-cfdc-95bb-6c307ec61229",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B2C-MOB-OFR-100MBPS-2HRS",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/f7501db8-c03a-cfdc-95bb-6c307ec61229"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/f7501db8-c03a-cfdc-95bb-6c307ec61229"
+}

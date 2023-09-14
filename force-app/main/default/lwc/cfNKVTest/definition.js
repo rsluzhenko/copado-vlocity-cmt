@@ -1,0 +1,3 @@
+let definition = 
+                {"Cards":[],"dataSource":{"type":null},"enableLwc":true,"repeatCards":false,"lwc":{"MasterLabel":"testCommunicationForm","DeveloperName":"cfTestCommunicationForm","Id":"0Rb8Y000000pbPBSAY","name":"cfTestCommunicationForm"},"previewType":"runTime","componentName":"cfNKVTest","GlobalKey__c":"NKVTest/1/Salesforce/1689589092115"}; 
+            export default definition

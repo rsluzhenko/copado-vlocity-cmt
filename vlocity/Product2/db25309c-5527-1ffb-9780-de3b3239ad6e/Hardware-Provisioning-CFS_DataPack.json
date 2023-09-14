@@ -1,0 +1,468 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Hardware-Provisioning-CFS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-DEVICE-COLOR": null,
+        "B2C-ATTR-ICCID": null,
+        "B2C-ATTR-IMSI": null,
+        "B2C-ATTR-SIM-TYPE": null,
+        "B2C-ATTR-STORAGE-CAP": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-MOB-DEV",
+                "Name": "Mobile Device Details",
+                "displaySequence": 8100,
+                "id": "a0P8Y00000OG1iOUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKUUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-DEVICE-COLOR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "0d19f921-d7b2-9d42-c00d-f0d576a40884",
+                                    "label": "Graphite",
+                                    "name": "0d19f921-d7b2-9d42-c00d-f0d576a40884",
+                                    "readonly": false,
+                                    "value": "Graphite"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 7,
+                                    "id": "3e3fa468-b60c-a87d-0557-29d455020fb9",
+                                    "label": "White",
+                                    "name": "3e3fa468-b60c-a87d-0557-29d455020fb9",
+                                    "readonly": false,
+                                    "value": "White"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "58f958da-9cd1-c386-44d1-509f1e23d226",
+                                    "label": "Sierra Blue",
+                                    "name": "58f958da-9cd1-c386-44d1-509f1e23d226",
+                                    "readonly": false,
+                                    "value": "Sierra Blue"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "id": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "label": "Black",
+                                    "name": "9132d106-8c5f-076b-2af1-4e7bb8b6a603",
+                                    "readonly": false,
+                                    "value": "Black"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "be9e8a44-b8d0-9441-5253-a9807a33ff2a",
+                                    "label": "Silver",
+                                    "name": "be9e8a44-b8d0-9441-5253-a9807a33ff2a",
+                                    "readonly": false,
+                                    "value": "Silver"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "c22abba5-50d7-e4eb-8f7a-9768ebd2a725",
+                                    "label": "Red",
+                                    "name": "c22abba5-50d7-e4eb-8f7a-9768ebd2a725",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 9,
+                                    "id": "d7b15897-938e-e942-bbce-64051cf474bc",
+                                    "label": "Sorta Seafoam",
+                                    "name": "d7b15897-938e-e942-bbce-64051cf474bc",
+                                    "readonly": false,
+                                    "value": "Sorta Seafoam"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "e8ba3066-ec2f-45aa-f6ac-821a77931092",
+                                    "label": "Gold",
+                                    "name": "e8ba3066-ec2f-45aa-f6ac-821a77931092",
+                                    "readonly": false,
+                                    "value": "Gold"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 6,
+                                    "id": "f4019fdc-ea60-d593-6fa2-f6bc61225efb",
+                                    "label": "Starlight",
+                                    "name": "f4019fdc-ea60-d593-6fa2-f6bc61225efb",
+                                    "readonly": false,
+                                    "value": "Starlight"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKVUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-STORAGE-CAP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Storage Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "05ded5d3-eaa9-1836-788c-6a81689a4305",
+                                    "label": "1 TB",
+                                    "name": "05ded5d3-eaa9-1836-788c-6a81689a4305",
+                                    "readonly": false,
+                                    "value": "1 TB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "label": "128 GB",
+                                    "name": "212c7297-7968-854b-9e60-09351e4151dc",
+                                    "readonly": false,
+                                    "value": "128 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "6e4b16ec-9de7-56b0-caf7-df61eee04dad",
+                                    "label": "512 GB",
+                                    "name": "6e4b16ec-9de7-56b0-caf7-df61eee04dad",
+                                    "readonly": false,
+                                    "value": "512 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "a5048dcc-4a3a-d97c-656d-928c22c40ad2",
+                                    "label": "256 GB",
+                                    "name": "a5048dcc-4a3a-d97c-656d-928c22c40ad2",
+                                    "readonly": false,
+                                    "value": "256 GB"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "B2C-ATTRCAT-SIM",
+                "Name": "Sim Card Details",
+                "displaySequence": 8500,
+                "id": "a0P8Y00000OG1iSUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKhUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SIM-TYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "SIM Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "2d9f9027-6f2a-44c7-4ebf-7a53ed095adf",
+                                    "label": "eSIM",
+                                    "name": "2d9f9027-6f2a-44c7-4ebf-7a53ed095adf",
+                                    "readonly": false,
+                                    "value": "eSIM"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "37468c41-8e8a-5e27-502f-676833c3a69d",
+                                    "label": "NanoSIM",
+                                    "name": "37468c41-8e8a-5e27-502f-676833c3a69d",
+                                    "readonly": false,
+                                    "value": "NanoSIM"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "38f0ca68-7c4d-faab-9ac7-956810498b4e",
+                                    "label": "MicroSIM",
+                                    "name": "38f0ca68-7c4d-faab-9ac7-956810498b4e",
+                                    "readonly": false,
+                                    "value": "MicroSIM"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "d080eb73-d60d-ad49-c217-2c2c4d16210c",
+                                    "label": "Standard",
+                                    "name": "d080eb73-d60d-ad49-c217-2c2c4d16210c",
+                                    "readonly": false,
+                                    "value": "Standard"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKiUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-ICCID",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "ICCID",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKeUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-IMSI",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "IMSI",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "0e0a0865-5ffc-5c81-c022-03c11f7f4eb1",
+                                    "label": "310810829435110",
+                                    "name": "0e0a0865-5ffc-5c81-c022-03c11f7f4eb1",
+                                    "readonly": false,
+                                    "value": "310810829435110"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "75b8cb2e-92a8-b677-52fc-903588677433",
+                                    "label": "310810829435109",
+                                    "name": "75b8cb2e-92a8-b677-52fc-903588677433",
+                                    "readonly": false,
+                                    "value": "310810829435109"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "7fab4d52-d98b-dfe2-2297-bba2c3f11dc3",
+                                    "label": "310810829435113",
+                                    "name": "7fab4d52-d98b-dfe2-2297-bba2c3f11dc3",
+                                    "readonly": false,
+                                    "value": "310810829435113"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "84daee1b-7eea-d6b1-1bdd-0ef83429e0c1",
+                                    "label": "310810829435111",
+                                    "name": "84daee1b-7eea-d6b1-1bdd-0ef83429e0c1",
+                                    "readonly": false,
+                                    "value": "310810829435111"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "9073a424-5845-9dda-973e-6cdd5bcf1d34",
+                                    "label": "310810829435112",
+                                    "name": "9073a424-5845-9dda-973e-6cdd5bcf1d34",
+                                    "readonly": false,
+                                    "value": "310810829435112"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "d3ed9afa-f6c3-1693-75bd-6e79e464866a",
+    "%vlocity_namespace%__GlobalKey__c": "db25309c-5527-1ffb-9780-de3b3239ad6e",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Hardware-Provisioning-CFS_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "78f8c9-a9d862-70fd87-f93d10-2071a9a58",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/78f8c9-a9d862-70fd87-f93d10-2071a9a58",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Hardware CFS Object Type",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Hardware-Provisioning-CFS_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Hardware-Provisioning-CFS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Service",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Hardware Provisioning CFS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "B2C-MOB-CFS-HARDWARE",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/db25309c-5527-1ffb-9780-de3b3239ad6e"
+}

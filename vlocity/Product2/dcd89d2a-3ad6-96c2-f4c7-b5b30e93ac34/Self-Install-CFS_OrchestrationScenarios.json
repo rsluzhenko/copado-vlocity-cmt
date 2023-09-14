@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "1671f203-6b94-f82b-8056-c710fae0291b",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Internet Self-Install",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Internet Self-Install",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "dcd89d2a-3ad6-96c2-f4c7-b5b30e93ac34",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/dcd89d2a-3ad6-96c2-f4c7-b5b30e93ac34",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "dcd89d2a-3ad6-96c2-f4c7-b5b30e93ac34",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Self Install Add",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Self Install Add/1671f203-6b94-f82b-8056-c710fae0291b/Product2/dcd89d2a-3ad6-96c2-f4c7-b5b30e93ac34"
+    }
+]

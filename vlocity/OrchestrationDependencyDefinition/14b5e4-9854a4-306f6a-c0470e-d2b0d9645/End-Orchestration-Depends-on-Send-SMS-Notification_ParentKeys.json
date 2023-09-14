@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/End Orchestration_Mobile Plan E2E",
+    "OrchestrationItemDefinition/Send SMS Notification_Mobile Plan E2E",
+    "OrchestrationPlanDefinition/Mobile Plan E2E"
+]

@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "1bedb51d-8bbf-759a-fd1f-97c985f7d802",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "fe72c08a-c3c1-eb9b-3813-812f1b2a9fbd",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/fe72c08a-c3c1-eb9b-3813-812f1b2a9fbd",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "4f2f0e05-2746-5d22-ece5-4e6c23fb8649",
+    "%vlocity_namespace%__SequenceNumber__c": 10,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/hbo-max-logo.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "HBO Max CDN",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/1bedb51d-8bbf-759a-fd1f-97c985f7d802"
+}

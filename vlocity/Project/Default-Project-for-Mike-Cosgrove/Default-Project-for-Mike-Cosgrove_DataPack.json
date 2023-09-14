@@ -1,0 +1,17 @@
+{
+    "%vlocity_namespace%__Creator__c": "Mike Cosgrove",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "fbd92313-7fd0-3275-53bf-dd2a379173b3",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsDefault__c": false,
+    "%vlocity_namespace%__LastModifier__c": "Mike Cosgrove",
+    "%vlocity_namespace%__OriginalCreatedDate__c": "2021-06-08T17:18:24.000Z",
+    "%vlocity_namespace%__ProjectItem__c": "Default-Project-for-Mike-Cosgrove_ProjectItems.json",
+    "%vlocity_namespace%__ProjectOwner__c": "Mike Cosgrove",
+    "%vlocity_namespace%__Status__c": "Draft",
+    "Name": "Default Project for Mike Cosgrove",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Project__c/fbd92313-7fd0-3275-53bf-dd2a379173b3"
+}

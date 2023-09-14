@@ -1,0 +1,32 @@
+[
+    {
+        "%vlocity_namespace%__AllowIndependentLifeCycle__c": false,
+        "%vlocity_namespace%__ChildLineNumber__c": "1",
+        "%vlocity_namespace%__ChildProductId__c": "",
+        "%vlocity_namespace%__CollapseHierarchy__c": false,
+        "%vlocity_namespace%__GlobalKey__c": "225141fc-c8bf-dbb4-9904-50cb37d4e51e",
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsRootProductChildItem__c": true,
+        "%vlocity_namespace%__IsVirtualItem__c": false,
+        "%vlocity_namespace%__MaxQuantity__c": 99999,
+        "%vlocity_namespace%__MaximumChildItemQuantity__c": 99999,
+        "%vlocity_namespace%__MinMaxDefaultQty__c": "0, 99999, 1",
+        "%vlocity_namespace%__MinQuantity__c": 0,
+        "%vlocity_namespace%__MinimumChildItemQuantity__c": 0,
+        "%vlocity_namespace%__ParentProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ce91c77e-bf94-3ee6-ee2c-5a9f649cfd32",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ce91c77e-bf94-3ee6-ee2c-5a9f649cfd32",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ParentProductName__c": "Professional Install CFS",
+        "%vlocity_namespace%__Quantity__c": 1,
+        "%vlocity_namespace%__RelationshipType__c": "Child",
+        "%vlocity_namespace%__SelectionMethodImplementation__c": "",
+        "%vlocity_namespace%__SeqNumber__c": 1,
+        "Name": "Root PCI",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/225141fc-c8bf-dbb4-9904-50cb37d4e51e"
+    }
+]

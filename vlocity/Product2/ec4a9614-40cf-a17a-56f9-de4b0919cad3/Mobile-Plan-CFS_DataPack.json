@@ -1,0 +1,712 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Mobile-Plan-CFS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "B2C-ATTR-INT-BAND": null,
+        "B2C-ATTR-INT-DATA": null,
+        "B2C-ATTR-INT-REGION": null,
+        "B2C-ATTR-INT-SMSMMS": null,
+        "B2C-ATTR-INT-VOICE": null,
+        "B2C-ATTR-MOB-DATA": null,
+        "B2C-ATTR-MOB-PREM-DATA": null,
+        "B2C-ATTR-MOB-SMSMMS": null,
+        "B2C-ATTR-MOB-THR-DATA-SPEED": null,
+        "B2C-ATTR-MOB-VOICE": null,
+        "B2C-ATTR-SPEEDBOOST-BAND": null,
+        "B2C-ATTR-SPEEDBOOST-DATA": null,
+        "B2C-ATTR-SPEEDBOOST-DUR": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "B2C-ATTRCAT-INT-PLAN",
+                "Name": "International Plan Details",
+                "displaySequence": 8200,
+                "id": "a0P8Y00000OG1iNUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKZUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-INT-DATA",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "International Data",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "b555a0b5-639d-9c0a-072a-f061025ee156",
+                                    "label": "Unlimited",
+                                    "name": "b555a0b5-639d-9c0a-072a-f061025ee156",
+                                    "readonly": false,
+                                    "value": "999999"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKXUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-INT-VOICE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "International Voice",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "bd530baf-81f0-522c-7ab2-d12a28d694b3",
+                                    "label": "Unlimited",
+                                    "name": "bd530baf-81f0-522c-7ab2-d12a28d694b3",
+                                    "readonly": false,
+                                    "value": "Unlimited"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKYUA2",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-INT-SMSMMS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "International SMS/MMS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "ae5c5151-1b11-137e-605f-f2e34c94f52c",
+                                    "label": "Unlimited",
+                                    "name": "ae5c5151-1b11-137e-605f-f2e34c94f52c",
+                                    "readonly": false,
+                                    "value": "Unlimited"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKaUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-INT-BAND",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 40,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "International Bandwidth",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "5d0ede3c-72c9-8c92-dd61-d17be4d0a89d",
+                                    "label": "256 Kbps",
+                                    "name": "5d0ede3c-72c9-8c92-dd61-d17be4d0a89d",
+                                    "readonly": false,
+                                    "value": "256"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "75743f30-3d30-ad57-ecdf-ed34a4fcb3da",
+                                    "label": "128 Kbps",
+                                    "name": "75743f30-3d30-ad57-ecdf-ed34a4fcb3da",
+                                    "readonly": false,
+                                    "value": "128"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKbUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-INT-REGION",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "International Plan Region",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "1906218b-d3a9-877f-d674-8033694f347b",
+                                    "label": "Asia Pacific",
+                                    "name": "1906218b-d3a9-877f-d674-8033694f347b",
+                                    "readonly": false,
+                                    "value": "Asia Pacific"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "931d555b-2a48-dfc4-5dfd-1e5f670adc46",
+                                    "label": "North America",
+                                    "name": "931d555b-2a48-dfc4-5dfd-1e5f670adc46",
+                                    "readonly": false,
+                                    "value": "North America"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "a7034e88-6573-dbb4-9a69-7a744742aa3d",
+                                    "label": "Latin America",
+                                    "name": "a7034e88-6573-dbb4-9a69-7a744742aa3d",
+                                    "readonly": false,
+                                    "value": "Latin America"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "d5fc7f11-9060-6969-7447-85faf4a90711",
+                                    "label": "Europe, The Middle East & Africa",
+                                    "name": "d5fc7f11-9060-6969-7447-85faf4a90711",
+                                    "readonly": false,
+                                    "value": "Europe, The Middle East & Africa"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 5
+                }
+            },
+            {
+                "Code__c": "B2C-ATTRCAT-MOB-PLAN",
+                "Name": "Mobile Plan Details",
+                "displaySequence": 8600,
+                "id": "a0P8Y00000OG1iRUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKlUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-MOB-DATA",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Data Allowance",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "83ba819e-8dcc-23cc-3579-1d55ae74b10e",
+                                    "label": "50 GB",
+                                    "name": "83ba819e-8dcc-23cc-3579-1d55ae74b10e",
+                                    "readonly": false,
+                                    "value": "50"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "bcb497a7-577f-a3c9-ee8d-d4fc9cf80675",
+                                    "label": "25 GB",
+                                    "name": "bcb497a7-577f-a3c9-ee8d-d4fc9cf80675",
+                                    "readonly": false,
+                                    "value": "25"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "d827e37c-0f9c-d430-3374-34f75339d645",
+                                    "label": "Unlimited",
+                                    "name": "d827e37c-0f9c-d430-3374-34f75339d645",
+                                    "readonly": false,
+                                    "value": "999999"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKjUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-MOB-VOICE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Voice Allowance",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "9219bd38-3ef7-26e5-acbb-c405a2cf1892",
+                                    "label": "Unlimited",
+                                    "name": "9219bd38-3ef7-26e5-acbb-c405a2cf1892",
+                                    "readonly": false,
+                                    "value": "Unlimited"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKkUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-MOB-SMSMMS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "SMS/MMS Allowance",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "59803625-5cec-888c-2c1e-872482e8494b",
+                                    "label": "Unlimited",
+                                    "name": "59803625-5cec-888c-2c1e-872482e8494b",
+                                    "readonly": false,
+                                    "value": "Unlimited"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKnUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-MOB-PREM-DATA",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 40,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Premium Data Allowance",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "01e7212c-6b4f-d82c-2cdb-1a3086644aef",
+                                    "label": "50 GB",
+                                    "name": "01e7212c-6b4f-d82c-2cdb-1a3086644aef",
+                                    "readonly": false,
+                                    "value": "50"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "761b7122-87ac-16e3-1a4d-e91e539b9f89",
+                                    "label": "100 GB",
+                                    "name": "761b7122-87ac-16e3-1a4d-e91e539b9f89",
+                                    "readonly": false,
+                                    "value": "100"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "e5bf8c38-78fc-a061-b66b-dba9e9b085af",
+                                    "label": "Unlimited",
+                                    "name": "e5bf8c38-78fc-a061-b66b-dba9e9b085af",
+                                    "readonly": false,
+                                    "value": "999999"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKoUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-MOB-THR-DATA-SPEED",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Throttled Data Speed",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "afc2ea85-209d-3cb8-9570-94a8d97e2e19",
+                                    "label": "1 Mbps",
+                                    "name": "afc2ea85-209d-3cb8-9570-94a8d97e2e19",
+                                    "readonly": false,
+                                    "value": "1000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "c9742760-2cf1-7b6e-c6ac-6046323f8c50",
+                                    "label": "512 Kbps",
+                                    "name": "c9742760-2cf1-7b6e-c6ac-6046323f8c50",
+                                    "readonly": false,
+                                    "value": "512"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 5
+                }
+            },
+            {
+                "Code__c": "B2C-ATTRCAT-SPEEDBOOST",
+                "Name": "Speed Boost Details",
+                "displaySequence": 8800,
+                "id": "a0P8Y00000OG1iTUAT",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Q8Y00000cvNKpUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SPEEDBOOST-DATA",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Speed Boost Data Allowance",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "0dca1ab1-ab42-aa6f-14fa-4e98976d66ff",
+                                    "label": "15 GB",
+                                    "name": "0dca1ab1-ab42-aa6f-14fa-4e98976d66ff",
+                                    "readonly": false,
+                                    "value": "15000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "c008498e-ba46-9625-b845-1da1c32acb21",
+                                    "label": "5 GB",
+                                    "name": "c008498e-ba46-9625-b845-1da1c32acb21",
+                                    "readonly": false,
+                                    "value": "5000"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "f5d0e553-9463-b66e-2c5b-4ea3dec1055c",
+                                    "label": "512 MB",
+                                    "name": "f5d0e553-9463-b66e-2c5b-4ea3dec1055c",
+                                    "readonly": false,
+                                    "value": "512"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKrUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SPEEDBOOST-DUR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Speed Boost Duration",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "12237b3e-1031-04ff-8df9-9edb01ef7274",
+                                    "label": "12 Hours",
+                                    "name": "12237b3e-1031-04ff-8df9-9edb01ef7274",
+                                    "readonly": false,
+                                    "value": "12"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "805f6859-7ed0-8024-0a66-7750ebc30790",
+                                    "label": "1 Day",
+                                    "name": "805f6859-7ed0-8024-0a66-7750ebc30790",
+                                    "readonly": false,
+                                    "value": "24"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "9b6ee1c5-a822-718d-8456-7654a67be9ae",
+                                    "label": "2 Hours",
+                                    "name": "9b6ee1c5-a822-718d-8456-7654a67be9ae",
+                                    "readonly": false,
+                                    "value": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Q8Y00000cvNKqUAM",
+                            "cloneable": true,
+                            "code": "B2C-ATTR-SPEEDBOOST-BAND",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Speed Boost Bandwidth",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "0061b69d-e4e1-e7e6-33db-0a1330b80901",
+                                    "label": "50 Mbps",
+                                    "name": "0061b69d-e4e1-e7e6-33db-0a1330b80901",
+                                    "readonly": false,
+                                    "value": "50"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "e277e25a-a809-7e27-3550-87ad26a39ad3",
+                                    "label": "100 Mbps",
+                                    "name": "e277e25a-a809-7e27-3550-87ad26a39ad3",
+                                    "readonly": false,
+                                    "value": "100"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            }
+        ],
+        "totalSize": 3
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "fe9a8f15-9de3-6a7a-9029-58fad30af538",
+    "%vlocity_namespace%__GlobalKey__c": "ec4a9614-40cf-a17a-56f9-de4b0919cad3",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "738676-724d2d-ad20e4-eebffc-f66680b9c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/738676-724d2d-ad20e4-eebffc-f66680b9c",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Plan CFS Object Type",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Mobile-Plan-CFS_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Mobile-Plan-CFS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Service",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "External_ID__c": "",
+    "Family": "Mobile",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsSerialized": false,
+    "Name": "Mobile Plan CFS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "ProductCode": "B2C-MOB-CFS-PLAN",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/ec4a9614-40cf-a17a-56f9-de4b0919cad3"
+}

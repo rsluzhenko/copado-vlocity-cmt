@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "8045e5df-981f-5b4b-002a-d448213da3e9",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "7b8fc8c9-40ba-e6c6-6673-ec3100f71ef0",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/7b8fc8c9-40ba-e6c6-6673-ec3100f71ef0",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "508ee8a8-8d37-552c-a191-7d9bfd1c4d74",
+    "%vlocity_namespace%__SequenceNumber__c": 1,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/door-window-sensor.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Door and Window Sensor CDN",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/8045e5df-981f-5b4b-002a-d448213da3e9"
+}

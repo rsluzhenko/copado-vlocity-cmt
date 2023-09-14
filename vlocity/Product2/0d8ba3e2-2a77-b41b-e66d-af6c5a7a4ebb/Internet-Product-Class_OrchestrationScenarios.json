@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "12daa3-b318c2-5ecb6a-fe0f6d-7a119dc05",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Modify FTTH Access E2E - COP",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Modify FTTH Access E2E - COP",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb",
+        "%vlocity_namespace%__SubAction__c": "Replace",
+        "Name": "Internet Change of Plan E2E",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Internet Change of Plan E2E/12daa3-b318c2-5ecb6a-fe0f6d-7a119dc05/Product2/0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2debfd-b2709b-4b957f-4c4283-71bf616c0",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Internet Access E2E",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Internet Access E2E",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "E2E Internet Add (Class)",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/E2E Internet Add (Class)/2debfd-b2709b-4b957f-4c4283-71bf616c0/Product2/0d8ba3e2-2a77-b41b-e66d-af6c5a7a4ebb"
+    }
+]
