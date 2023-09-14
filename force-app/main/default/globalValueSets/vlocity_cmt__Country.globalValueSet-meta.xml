@@ -337,12 +337,6 @@
         <label>Angola</label>
     </customValue>
     <customValue>
-        <fullName>DK</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Denmark</label>
-    </customValue>
-    <customValue>
         <fullName>CZ</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -359,6 +353,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Djibouti</label>
+    </customValue>
+    <customValue>
+        <fullName>DK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Denmark</label>
     </customValue>
     <customValue>
         <fullName>DM</fullName>
@@ -403,12 +403,6 @@
         <label>Western Sahara</label>
     </customValue>
     <customValue>
-        <fullName>ET</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Ethiopia</label>
-    </customValue>
-    <customValue>
         <fullName>ER</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -425,6 +419,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Falkland Islands (Malvinas)</label>
+    </customValue>
+    <customValue>
+        <fullName>ET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ethiopia</label>
     </customValue>
     <customValue>
         <fullName>FI</fullName>
@@ -847,12 +847,6 @@
         <label>China</label>
     </customValue>
     <customValue>
-        <fullName>CV</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Cape Verde</label>
-    </customValue>
-    <customValue>
         <fullName>CO</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -869,6 +863,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Cuba</label>
+    </customValue>
+    <customValue>
+        <fullName>CV</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cape Verde</label>
     </customValue>
     <customValue>
         <fullName>CW</fullName>
@@ -1111,12 +1111,6 @@
         <label>Nauru</label>
     </customValue>
     <customValue>
-        <fullName>LB</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Lebanon</label>
-    </customValue>
-    <customValue>
         <fullName>KY</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -1133,6 +1127,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Lao People’s Democratic Republic</label>
+    </customValue>
+    <customValue>
+        <fullName>LB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lebanon</label>
     </customValue>
     <customValue>
         <fullName>LC</fullName>
