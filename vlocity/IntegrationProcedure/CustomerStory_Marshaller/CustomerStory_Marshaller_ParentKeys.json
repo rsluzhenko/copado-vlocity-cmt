@@ -1,7 +1,0 @@
-[
-    "DataRaptor/getCaseStoryItems",
-    "DataRaptor/getOpportunityStoryItems",
-    "DataRaptor/getOrderStoryItems",
-    "DataRaptor/getTaskStoryItems",
-    "DataRaptor/getWorkOrderStoryItems"
-]

@@ -1,6 +1,0 @@
-[
-    "DataRaptor/ExtractAllRootLineItemFromQuote",
-    "DataRaptor/GetWCProductIds",
-    "DataRaptor/updateQLIsQuantity",
-    "IntegrationProcedure/CPQ_CreateWorkingCart"
-]

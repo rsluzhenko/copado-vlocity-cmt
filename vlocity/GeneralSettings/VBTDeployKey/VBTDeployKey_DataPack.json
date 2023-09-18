@@ -1,7 +1,0 @@
-{
-    "%vlocity_namespace%__Value__c": "682cb26d67f6d606db81cf37df90344c985b5bc6",
-    "Name": "VBTDeployKey",
-    "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "%vlocity_namespace%__GeneralSettings__c",
-    "VlocityRecordSourceKey": "%vlocity_namespace%__GeneralSettings__c/VBTDeployKey"
-}

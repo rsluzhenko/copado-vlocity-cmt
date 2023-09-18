@@ -1,5 +1,0 @@
-[
-    "OrchestrationItemDefinition/Start Billing_Mobile Plan E2E",
-    "OrchestrationItemDefinition/Wait for Mobile Activation_Mobile Service Provisioning",
-    "OrchestrationPlanDefinition/Mobile Service Provisioning"
-]
