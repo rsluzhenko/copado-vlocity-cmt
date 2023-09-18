@@ -1,3 +1,0 @@
-let definition = 
-                {"Cards":[],"dataSource":{"type":null},"templates":{"0":{"templateUrl":"TestNKV"}},"enableLwc":true,"repeatCards":false,"lwc":{"MasterLabel":"NKVTest","DeveloperName":"cfNKVTest","Id":"0Rb8Y000000mNKoSAM","name":"cfNKVTest"},"componentName":"cfNKVTest2","previewType":"runTime","GlobalKey__c":"NKVTest2/1/Salesforce/1689591005082"}; 
-            export default definition

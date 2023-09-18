@@ -1,3 +1,0 @@
-<aura:event type="APPLICATION" description="Notifies parent of update">
-    <aura:attribute name="parentId" type="String"/>
-</aura:event>

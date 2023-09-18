@@ -1,3 +1,0 @@
-<apex:page showHeader="false" sidebar="false" standardController="vlocity_cmt__OmniScript__c" extensions="vlocity_cmt.ImportExportOmniController" recordSetVar="omniScripts">
-    <p>This page is deprecated. </p>
-</apex:page>
