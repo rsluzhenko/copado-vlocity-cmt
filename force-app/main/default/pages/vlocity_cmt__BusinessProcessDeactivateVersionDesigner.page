@@ -1,2 +1,0 @@
-<apex:page controller="vlocity_cmt.BusinessProcessController" action="{!doDeactivateVersionDesigner}" docType="html-5.0">
-</apex:page>

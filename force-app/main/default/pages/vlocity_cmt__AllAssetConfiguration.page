@@ -1,3 +1,0 @@
-<apex:page standardController="Account" extensions="vlocity_cmt.AssetConfigurationController" showHeader="false" sidebar="false">
-     <c:AssetConfigurationComponent cartUrl="/apex/OrderManager?id={!HTMLENCODE($CurrentPage.parameters.Id)}" fieldStName="AssetConfiguration" listType="Asset" />  
-</apex:page>

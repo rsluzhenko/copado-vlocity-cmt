@@ -1,3 +1,0 @@
-<apex:page standardController="Contract" applyHtmlTag="false" showHeader="false" renderas="pdf">
- <c:DocumentPdf />
-</apex:page>

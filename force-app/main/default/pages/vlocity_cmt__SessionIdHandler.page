@@ -1,3 +1,0 @@
-<apex:page controller="vlocity_cmt.AccessTokenController" contentType="application/json">
-    {!vlocAccessToken}
-</apex:page>

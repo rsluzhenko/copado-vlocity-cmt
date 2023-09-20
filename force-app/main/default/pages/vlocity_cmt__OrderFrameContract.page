@@ -1,3 +1,0 @@
-<apex:page standardController="Order" showHeader="false" sidebar="false" docType="html-5.0">
- <c:FrameContract objId="{!Order.Id}"/>
-</apex:page>
