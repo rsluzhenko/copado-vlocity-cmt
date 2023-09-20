@@ -1,3 +1,0 @@
-<apex:page sidebar="false" showHeader="false" docType="html-5.0" standardcontroller="vlocity_cmt__OrchestrationQueueAssignmentRule__c">
-<c:XOMConditionsJSONMapper recId="{!$CurrentPage.parameters.Id}" recAttrName="OrchestrationItemCondition__c" />
-</apex:page>

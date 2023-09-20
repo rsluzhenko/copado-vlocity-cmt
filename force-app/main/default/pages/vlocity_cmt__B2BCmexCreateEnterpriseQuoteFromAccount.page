@@ -1,2 +1,0 @@
-<apex:page standardController="Account" extensions="vlocity_cmt.B2BCmexQuoteController" action="{!createQuote}" sidebar="false" showHeader="false">
-</apex:page>

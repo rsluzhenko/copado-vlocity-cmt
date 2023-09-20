@@ -1,3 +1,0 @@
-<apex:page standardController="Quote" applyHtmlTag="false" showHeader="false" renderas="pdf">
- <c:DocumentPdf useTemplateLocale="true" />
-</apex:page>

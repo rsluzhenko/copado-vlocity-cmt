@@ -1,3 +1,0 @@
-<apex:page standardController="vlocity_cmt__ContractVersion__c" applyHtmlTag="false" showHeader="false">
- <c:DocumentPdf />
-</apex:page>
