@@ -1,5 +1,0 @@
-[
-    "DataRaptor/cpqGetRecordType",
-    "IntegrationProcedure/CPQ_CreateOrder",
-    "IntegrationProcedure/CPQ_StartBulkCreateGroups"
-]
