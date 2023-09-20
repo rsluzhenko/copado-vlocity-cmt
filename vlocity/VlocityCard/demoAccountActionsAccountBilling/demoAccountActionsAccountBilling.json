@@ -1,0 +1,719 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n  \"Billing\": {\n    \"%vlocity_namespace%__AutoPaymentCardType__c\": \"VISA\",\n    \"EnableAutopay\": true,\n    \"AccountName\": \"Rachel Molina Residence\",\n    \"BillingStreet\": \"3205 N 3rd St\",\n    \"BillingState\": \"IA\",\n    \"BillingPostalCode\": \"50322\",\n    \"BillingCountry\": \"USA\",\n    \"BillingCity\": \"Clinton\"\n  },\n  \"Statement\": {\n    \"statementName\": \"Billing Cycle - 4/1/2021\",\n    \"accountId\": \"0015Y00002iaWMwQAM\",\n    \"endDate\": \"2021-03-31\",\n    \"dueDateFormatted\": \"05/01/2021\",\n    \"totalBalance\": \"$108.68\",\n    \"previousBalance\": \"$0.00\",\n    \"currentBalance\": \"$108.68\",\n    \"endDateFormatted\": \"03/31/2021\",\n    \"id\": \"a4V5Y000000ku6mUAA\",\n    \"startDateFormatted\": \"03/02/2021\"\n  }\n}",
+            "dsDelay": 0,
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "globalCSS": true,
+    "isFlex": true,
+    "isRepeatable": true,
+    "lwc": {
+        "DeveloperName": "cfDemoAccountActionsAccountBilling_3_sfi",
+        "Id": "0Rb5Y000000JWZOSA4",
+        "MasterLabel": "cfDemoAccountActionsAccountBilling_3_sfi",
+        "NamespacePrefix": "c"
+    },
+    "osSupport": true,
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexToggle",
+                                    "elementLabel": "Block-0-Toggle-0",
+                                    "key": "element_element_block_0_0_flexToggle_0_0",
+                                    "name": "Toggle",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "extraclass": "paperless-toggle",
+                                        "label": "Automated Payments",
+                                        "name": "Automated Payments",
+                                        "record": "{record}",
+                                        "styles": {
+                                        },
+                                        "type": "toggle"
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "paperless-toggle ",
+                                        "container": {
+                                            "class": "paperless-toggle"
+                                        },
+                                        "customClass": "",
+                                        "elementStyleProperties": {
+                                        },
+                                        "height": "",
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "maxHeight": "",
+                                        "minHeight": "",
+                                        "padding": [
+                                        ],
+                                        "selectedStyles": "",
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "            color:#706D6A; ",
+                                        "text": {
+                                            "align": "",
+                                            "color": "#706D6A"
+                                        },
+                                        "theme": ""
+                                    },
+                                    "type": "element"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-0",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-p-vertical_small ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                    {
+                                        "label": "vertical:small",
+                                        "size": "small",
+                                        "type": "vertical"
+                                    }
+                                ],
+                                "selectedStyles": "data-block",
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "block"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-1-Text-0",
+                                    "key": "element_element_block_1_0_outputField_0_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Cdiv%3ENext%20Payment%20Amount%3C/div%3E%0A%3Cdiv%3E%7BStatement.totalBalance%7D%3C/div%3E",
+                                        "record": "{record}",
+                                        "styles": {
+                                            "label": {
+                                                "color": "#706D6A",
+                                                "fontSize": ""
+                                            },
+                                            "value": {
+                                                "color": "#706D6A",
+                                                "fontSize": "14px",
+                                                "textDecoration": "bold"
+                                            }
+                                        }
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#cccccc",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": [
+                                                "border_top",
+                                                "border_bottom"
+                                            ],
+                                            "width": "1"
+                                        },
+                                        "class": "slds-border_top slds-border_bottom slds-p-vertical_x-small slds-p-horizontal_xx-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#706D6A",
+                                                    "fontSize": ""
+                                                },
+                                                "value": {
+                                                    "color": "#706D6A",
+                                                    "fontSize": "14px",
+                                                    "textDecoration": "bold"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "color: #706D6A;",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "vertical:x-small",
+                                                "size": "x-small",
+                                                "type": "vertical"
+                                            },
+                                            {
+                                                "label": "horizontal:xx-small",
+                                                "size": "xx-small",
+                                                "type": "horizontal"
+                                            }
+                                        ],
+                                        "selectedStyles": "billing-data",
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "     border-color:#cccccc; border-width:1px;       color: #706D6A;",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "text"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-1-Text-1",
+                                    "key": "element_element_block_1_0_outputField_1_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Cdiv%3ENext%20Payment%20Date%3C/div%3E%0A%3Cdiv%3E%7BStatement.dueDateFormatted%7D%3C/div%3E",
+                                        "record": "{record}",
+                                        "styles": {
+                                            "label": {
+                                                "color": "#706D6A",
+                                                "fontSize": ""
+                                            },
+                                            "value": {
+                                                "color": "#706D6A",
+                                                "fontSize": "14px",
+                                                "textDecoration": "bold"
+                                            }
+                                        }
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#cccccc",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": [
+                                                "border_top",
+                                                "border_bottom"
+                                            ],
+                                            "width": "1"
+                                        },
+                                        "class": "slds-border_top slds-border_bottom slds-p-vertical_x-small slds-p-horizontal_xx-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#706D6A",
+                                                    "fontSize": ""
+                                                },
+                                                "value": {
+                                                    "color": "#706D6A",
+                                                    "fontSize": "14px",
+                                                    "textDecoration": "bold"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "color: #706D6A;",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "vertical:x-small",
+                                                "size": "x-small",
+                                                "type": "vertical"
+                                            },
+                                            {
+                                                "label": "horizontal:xx-small",
+                                                "size": "xx-small",
+                                                "type": "horizontal"
+                                            }
+                                        ],
+                                        "selectedStyles": "billing-data",
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "     border-color:#cccccc; border-width:1px;       color: #706D6A;",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "text"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Block-1-Text-2",
+                                    "key": "element_element_block_1_0_outputField_2_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_1_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "mergeField": "%3Cdiv%3EPayment%20Method%3C/div%3E%0A%3Cdiv%3E%7BBilling.%vlocity_namespace%__AutoPaymentCardType__c%7D%3C/div%3E",
+                                        "record": "{record}",
+                                        "styles": {
+                                            "label": {
+                                                "color": "#706D6A",
+                                                "fontSize": ""
+                                            },
+                                            "value": {
+                                                "color": "#706D6A",
+                                                "fontSize": "14px",
+                                                "textDecoration": "bold"
+                                            }
+                                        }
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#cccccc",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": [
+                                                "border_top",
+                                                "border_bottom"
+                                            ],
+                                            "width": "1"
+                                        },
+                                        "class": "slds-border_top slds-border_bottom slds-p-vertical_x-small slds-p-horizontal_xx-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#706D6A",
+                                                    "fontSize": ""
+                                                },
+                                                "value": {
+                                                    "color": "#706D6A",
+                                                    "fontSize": "14px",
+                                                    "textDecoration": "bold"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "color: #706D6A;",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "vertical:x-small",
+                                                "size": "x-small",
+                                                "type": "vertical"
+                                            },
+                                            {
+                                                "label": "horizontal:xx-small",
+                                                "size": "xx-small",
+                                                "type": "horizontal"
+                                            }
+                                        ],
+                                        "selectedStyles": "billing-data",
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "     border-color:#cccccc; border-width:1px;       color: #706D6A;",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "text"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-1",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "#fafafa",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "background-color:#fafafa;             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "block"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "action",
+                                    "elementLabel": "Block-1-Block-3-Action-0",
+                                    "key": "element_element_block_2_0_action_0_0",
+                                    "name": "Action",
+                                    "parentElementKey": "element_block_2_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "displayAsButton": true,
+                                        "iconColor": "#666",
+                                        "iconSize": "x-small",
+                                        "record": "{record}",
+                                        "stateAction": {
+                                            "Web Page": {
+                                                "targetName": "/apex"
+                                            },
+                                            "displayName": "Schedule a Payment",
+                                            "id": "flex-action-1621863405549",
+                                            "openUrlIn": "Current Window",
+                                            "targetType": "Web Page",
+                                            "type": "Custom",
+                                            "vlocityIcon": "utility:date_time"
+                                        },
+                                        "stateObj": "{record}",
+                                        "styles": {
+                                            "label": {
+                                                "color": "#666",
+                                                "fontSize": "",
+                                                "textAlign": "center"
+                                            }
+                                        }
+                                    },
+                                    "size": {
+                                        "default": "12",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "#cbcbcb",
+                                            "radius": "5px",
+                                            "style": "",
+                                            "type": "",
+                                            "width": "1"
+                                        },
+                                        "class": "slds-m-vertical_large ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                            "iconColor": "#666",
+                                            "iconSize": "x-small",
+                                            "styles": {
+                                                "label": {
+                                                    "color": "#666",
+                                                    "fontSize": "",
+                                                    "textAlign": "center"
+                                                }
+                                            }
+                                        },
+                                        "inlineStyle": "border: 1px solid #CBCBCB;\n",
+                                        "margin": [
+                                            {
+                                                "label": "vertical:large",
+                                                "size": "large",
+                                                "type": "vertical"
+                                            }
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "12",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_12-of-12 ",
+                                        "style": "     border-color:#cbcbcb; border-width:1px; border-radius:5px;      border: 1px solid #CBCBCB;\n",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "type": "element"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-1-Block-3",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "block"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-card slds-m-bottom_x-small ",
+                "container": {
+                    "class": "slds-card"
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "bottom:x-small",
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "demoAccountActionsAccountBilling"
+}

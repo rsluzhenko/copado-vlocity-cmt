@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"accountName\":\"Smith Account\",\"accountNumber\":\"86-57309\"}"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleAccountSnapshotFinancial.json",
+    "%vlocity_namespace%__Description__c": "Console account snapshot financial",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleAccountSnapshotFinancial/sfi/1/1627920837832",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demoAccountSnapshotFinancial/sfi/5/1626096256982",
+    "%vlocity_namespace%__SampleData__c": "{\"accountName\":\"Smith Account\",\"accountNumber\":\"86-57309\"}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".slds-icon {\\n    height: 2.5rem; \\n    width: 2.5rem;\\n}\",\"styleObjects\":{\"header-block\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\",\"label\":\"around:x-small\"}],\"class\":\"slds-p-around_x-small \",\"sizeClass\":\"slds-size_12-of-12 \",\"margin\":[],\"background\":{\"color\":\"#eee\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"style\":\"background-color:#eee;             \",\"selectedStyles\":\"header-block\"},\"card-block\":{\"padding\":[],\"margin\":[{\"type\":\"around\",\"size\":\"none\",\"label\":\"around:none\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12 \",\"class\":\"slds-card slds-m-around_none \",\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"background: transparent;\",\"style\":\"             background: transparent;\",\"selectedStyles\":\"card-block\"},\"body-2-block\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\",\"label\":\"around:x-small\"}],\"class\":\"slds-p-around_x-small \",\"sizeClass\":\"slds-size_12-of-12 \",\"margin\":[],\"background\":{\"color\":\"#eee\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"style\":\"background-color:#eee;             \",\"selectedStyles\":\"body-2-block\"}}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleAccountSnapshotFinancial",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleAccountSnapshotFinancial"
+}

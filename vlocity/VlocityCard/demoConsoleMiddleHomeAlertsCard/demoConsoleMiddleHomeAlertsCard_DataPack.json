@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 3,
+                "name": "recordId",
+                "val": "0015e000003aDH5AAM"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "ipMethod": "Account_AlertNotifications",
+            "resultVar": "[\"NotificationMerge\"]",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleMiddleHomeAlertsCard.json",
+    "%vlocity_namespace%__Description__c": "Console card showing notifications",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleMiddleHomeAlertsCard/sfi/1/1620936961177",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CiConsole_Middle_HomeAlerts_Card/sfi/2/1619643061381",
+    "%vlocity_namespace%__SampleData__c": "{\"NotificationMerge\":[{\"ObjectType\":\"case\",\"DateDiffCalc\":0,\"NotificationType\":\"DoNotNotify\"},{\"ObjectType\":\"order\",\"NotificationType\":\"Overdue\",\"RecordStartDate\":\"05/06/2020\",\"RecordNumber\":\"00002831\",\"RecordStatus\":\"Draft\",\"RecordId\":\"8015e000000G0W9AAK\",\"DateDiffCalc\":378},{\"ObjectType\":\"order\",\"NotificationType\":\"Overdue\",\"RecordStartDate\":\"05/06/2020\",\"RecordNumber\":\"00002832\",\"RecordStatus\":\"Draft\",\"RecordId\":\"8015e000000G0WAAA0\",\"DateDiffCalc\":378},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"05/01/2020\",\"RecordNumber\":\"00002820\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000G0W7AAK\",\"DateDiffCalc\":383},{\"ObjectType\":\"order\",\"NotificationType\":\"Overdue\",\"RecordStartDate\":\"05/01/2020\",\"RecordNumber\":\"00002821\",\"RecordStatus\":\"Draft\",\"RecordId\":\"8015e000000G0W8AAK\",\"DateDiffCalc\":383},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"04/30/2020\",\"RecordNumber\":\"00002815\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000G0W6AAK\",\"DateDiffCalc\":384},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"04/29/2020\",\"RecordNumber\":\"00002813\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000G0W4AAK\",\"DateDiffCalc\":385},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"04/29/2020\",\"RecordNumber\":\"00002814\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000G0W5AAK\",\"DateDiffCalc\":385},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"11/12/2019\",\"RecordNumber\":\"00002794\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000G0W3AAK\",\"DateDiffCalc\":554},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"09/22/2019\",\"RecordNumber\":\"00002742\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000G0WGAA0\",\"DateDiffCalc\":605},{\"ObjectType\":\"order\",\"NotificationType\":\"DoNotNotify\",\"RecordStartDate\":\"04/05/2019\",\"RecordNumber\":\"00002713\",\"RecordStatus\":\"Activated\",\"RecordId\":\"8015e000000oOOOAA2\",\"DateDiffCalc\":775}]}",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleMiddleHomeAlertsCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleMiddleHomeAlertsCard"
+}

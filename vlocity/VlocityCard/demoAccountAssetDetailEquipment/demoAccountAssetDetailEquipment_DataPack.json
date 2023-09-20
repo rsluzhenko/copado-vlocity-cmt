@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Author__c": "DE",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 0,
+                    "name": "User.userAccountId",
+                    "val": "001Dn000006iJVBIA2"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "accountId": "{User.userAccountId}"
+                },
+                "ipMethod": "Demo_GetAccountEquipment",
+                "jsonMap": "{\"User.userAccountId\":\"{User.userAccountId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoAccountAssetDetailEquipment.json",
+    "%vlocity_namespace%__Description__c": "account asset equipment details",
+    "%vlocity_namespace%__GlobalKey__c": "demoAccountAssetDetailEquipment/DE/3/1667492661232",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demo_account_asset_detail_equipment_deux/DE/2/1620758319699",
+    "%vlocity_namespace%__SampleData__c": "[{\"Attributes\":[{\"Label\":\"All In One Gateway\",\"Value\":\"All In One Gateway\",\"Name\":\"CPE Type\",\"Code\":\"B2C-ATTR-INET-CPE-TYPE\"},{\"Label\":\"true\",\"Value\":true,\"Name\":\"WiFi\",\"Code\":\"B2C-ATTR-INET-CPE-WiFi\"},{\"Label\":\"Rent\",\"Value\":\"Rent\",\"Name\":\"CPE Payment Type\",\"Code\":\"B2C-ATTR-CPE-PAYMENT-TYPE\"}],\"Product2Id\":\"01tDn000001GPS4IAO\",\"Name\":\"Internet Router\",\"Id\":\"02iDn0000009ZXXIA2\",\"%vlocity_namespace%__UrlLong__c\":\"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/InternetRouter.png\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".box-shadow-seperator {\\n    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05);\\n}\\n\\n.action-block div {\\njustify-content: center;\\n}\",\"styleObjects\":{\"de-action-button\":{\"sizeClass\":\"slds-large-size_5-of-12 slds-medium-size_5-of-12 slds-small-size_12-of-12 slds-size_12-of-12 \",\"padding\":[],\"margin\":[{\"type\":\"around\",\"size\":\"small\",\"label\":\"around:small\"}],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":true,\"default\":\"12\",\"large\":\"5\",\"medium\":\"5\",\"small\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"none\"},\"elementStyleProperties\":{\"styles\":{\"label\":{\"textAlign\":\"center\",\"fontSize\":\".75rem\",\"color\":\"#666\"}}},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"background: -webkit-linear-gradient(top, #fff, #f2f2f2);\\n\\tbackground: linear-gradient(to bottom, #fff, #f2f2f2);\\nbox-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);\\n\\t-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);\\n\\t-moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);\",\"class\":\"slds-text-align_center slds-m-around_small \",\"style\":\"        border-style:none;     background: -webkit-linear-gradient(top, #fff, #f2f2f2);\\n\\tbackground: linear-gradient(to bottom, #fff, #f2f2f2);\\nbox-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);\\n\\t-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);\\n\\t-moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.16);\",\"selectedStyles\":\"de-action-button\"}}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 3,
+    "Name": "demoAccountAssetDetailEquipment",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoAccountAssetDetailEquipment"
+}

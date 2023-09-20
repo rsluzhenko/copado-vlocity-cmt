@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "User.userAccountId",
+                    "val": "001Dn000005um2aIAA"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "accountId": "{User.userAccountId}"
+                },
+                "ipMethod": "Demo_GetAssetsCore",
+                "jsonMap": "{\"User.userAccountId\":\"{User.userAccountId}\"}",
+                "resultVar": "",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoAccountAssetProducts.json",
+    "%vlocity_namespace%__Description__c": "Community account asset products",
+    "%vlocity_namespace%__GlobalKey__c": "demoAccountAssetProducts/sfi/2/1667491279441",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demo_account_asset_products/DE/5/1620755293108",
+    "%vlocity_namespace%__SampleData__c": "[{\"Attributes\":[{\"Value\":\"Monthy\",\"Name\":\"Billing Frequency\",\"Code\":\"B2C-ATTR-BILLING-FREQ\"},{\"Value\":\"YouTube\",\"Name\":\"Entitlement Provider\",\"Code\":\"B2C-ATTR-ENTITLEMENT-PROVIDER\"},{\"Value\":\"Standard\",\"Name\":\"Resolution\",\"Code\":\"B2C-ATTR-RESOLUTION\"},{\"Value\":null,\"Name\":\"Contract Term\",\"Code\":\"B2C-ATTR-CONTRACT-TERM\"}],\"ProductFamily\":\"Streaming\",\"ProductDescription\":\"YouTube TV streaming plan\",\"ProvisioningStatus\":\"Active\",\"Product2Id\":\"01tDn000001GPSdIAO\",\"Id\":\"02iDn0000013CxPIAU\",\"Name\":\"YouTubeTV\",\"%vlocity_namespace%__UrlLong__c\":\"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/youtubetv-logo.png\"},{\"Attributes\":[{\"Value\":\"Unlimited\",\"Name\":\"Monthly Data Cap\",\"Code\":\"B2C-ATTR-INET-MONTHLY-DATA-CAP\"},{\"Value\":\"1000\",\"Name\":\"Download Speed\",\"Code\":\"B2C-ATTR-INET-DOWNLOAD-SPEED\"},{\"Value\":\"500\",\"Name\":\"Upload Speed\",\"Code\":\"B2C-ATTR-INET-UPLOAD-SPEED\"},{\"Value\":\"Month-to-Month\",\"Name\":\"Contract Term\",\"Code\":\"B2C-ATTR-CONTRACT-TERM\"}],\"ProductFamily\":\"Internet\",\"ProductDescription\":\"Better for multiple users with high bandwidth and connectivity needs, HD conferencing and data backup!\\n-Unlimited Data\\n-Download Speeds Up to 1Gbps\",\"ProvisioningStatus\":\"Active\",\"Product2Id\":\"01tDn000001GPSCIA4\",\"Id\":\"02iDn0000009RahIAE\",\"Name\":\"Blaze Internet Supreme\",\"%vlocity_namespace%__UrlLong__c\":\"https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/commsB2C/blaze-supreme-internet-logo.png\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".slds-grid {\\n    align-items: stretch;\\n}\\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "demoAccountAssetProducts",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoAccountAssetProducts"
+}

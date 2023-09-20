@@ -1,0 +1,44 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 2,
+                "name": "Parent.Id",
+                "val": "0014x00000CulkkAAB"
+            },
+            {
+                "id": 4,
+                "name": "recordId",
+                "val": "0014x00000CulkkAAB"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "ipMethod": "Account_GetContacts",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleRightContactCard.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleRightContactCard/sfi/1/1620938984381",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CiConsole_Right_Contact_Card/SalesforceIndustries/3/1618858332369",
+    "%vlocity_namespace%__SampleData__c": "[{\"LastName\":\"Jones\",\"FirstName\":\"Jeff\"},{\"Title\":\"CEO\",\"Phone\":\"(703) 876-3000\",\"Email\":\"pnovakovic@gd.com\",\"LastName\":\"Novakovic\",\"FirstName\":\"Phebe\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"styleObjects\":{\"grid-left-col\":{\"padding\":[{\"type\":\"top\",\"size\":\"xx-small\",\"label\":\"top:xx-small\"},{\"type\":\"bottom\",\"size\":\"xx-small\",\"label\":\"bottom:xx-small\"}],\"class\":\" slds-p-top_xx-small slds-p-bottom_xx-small \",\"sizeClass\":\"slds-size_4-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"4\"},\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#6A7DA4\"},\"inlineStyle\":\"\",\"style\":\"     border-color:#D8DDE6;       color:#6A7DA4; \",\"selectedStyles\":\"grid-left-col\"},\"grid-right-col\":{\"padding\":[{\"type\":\"top\",\"size\":\"xx-small\",\"label\":\"top:xx-small\"},{\"type\":\"bottom\",\"size\":\"xx-small\",\"label\":\"bottom:xx-small\"}],\"class\":\" slds-p-top_xx-small slds-p-bottom_xx-small \",\"sizeClass\":\"slds-size_8-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"8\"},\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#666666\"},\"inlineStyle\":\"\",\"style\":\"     border-color:#D8DDE6;       color:#666666; \",\"selectedStyles\":\"grid-right-col\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleRightContactCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleRightContactCard"
+}
