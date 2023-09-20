@@ -11,7 +11,7 @@ public with sharing class NamanTest1 {
     }     
     
      public static void NamanTest1() {
-        // Instantiate a new controller with all parameters in the page 3
+        // Instantiate a new controller with all parameters in the page 4
         NamanTest1 controller = new NamanTest1();
         controller.oldPassword = '123456';
         controller.newPassword = 'qwerty1'; 
