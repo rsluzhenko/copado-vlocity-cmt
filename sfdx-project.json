@@ -7,10 +7,6 @@
     {
       "path": "sfdx custom",
       "default": true
-    },
-    {
-      "path": "sfdx-app",
-      "default": false
     }
   ],
   "name": "copado-vlocity-cmt",
