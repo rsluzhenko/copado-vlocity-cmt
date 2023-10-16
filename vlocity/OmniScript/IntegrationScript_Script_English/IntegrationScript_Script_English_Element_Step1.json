@@ -22,7 +22,7 @@
             ],
             "default": null
         },
-        "instruction": "<p>New instruction.</p>",
+        "instruction": "",
         "instructionKey": "",
         "knowledgeOptions": {
             "dataCategoryCriteria": "",
