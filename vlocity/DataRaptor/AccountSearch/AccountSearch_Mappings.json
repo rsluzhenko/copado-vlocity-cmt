@@ -5,7 +5,7 @@
         "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Website",
         "%vlocity_namespace%__FilterGroup__c": 0,
         "%vlocity_namespace%__FilterOperator__c": "=",
-        "%vlocity_namespace%__FilterValue__c": "www.website.com",
+        "%vlocity_namespace%__FilterValue__c": "www.example.com",
         "%vlocity_namespace%__InterfaceFieldAPIName__c": "Website",
         "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
         "%vlocity_namespace%__InterfaceObjectName__c": "Account",
