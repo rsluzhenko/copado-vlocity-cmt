@@ -1,4 +1,5 @@
 {
+    "%vlocity_namespace%__AdditionalInformation__c": "Naman-DR1",
     "%vlocity_namespace%__CustomJavaScript__c": "{}",
     "%vlocity_namespace%__DisableMetadataCache__c": false,
     "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
@@ -12,7 +13,7 @@
     "%vlocity_namespace%__PropertySet__c": "aaa_bbb_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "bbb",
     "%vlocity_namespace%__Type__c": "aaa",
-    "Name": "aaabbb Int_Procedure",
+    "Name": "Test10July",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
     "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/aaa/bbb/Procedure"
