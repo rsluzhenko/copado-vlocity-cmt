@@ -6,7 +6,7 @@
     "%vlocity_namespace%__DRMapItem__c": "AKD-DR02-AccountList_Mappings.json",
     "%vlocity_namespace%__DRMapName__c": "AKD DR02 AccountList",
     "%vlocity_namespace%__DeleteOnSuccess__c": false,
-    "%vlocity_namespace%__Description__c": "AKD Account List DataRaptor \nTest by Shweta Chadha",
+    "%vlocity_namespace%__Description__c": "AKD Account List DataRaptor",
     "%vlocity_namespace%__GlobalKey__c": "AKD DR02 AccountList",
     "%vlocity_namespace%__IgnoreErrors__c": false,
     "%vlocity_namespace%__InputCustom__c": "",
