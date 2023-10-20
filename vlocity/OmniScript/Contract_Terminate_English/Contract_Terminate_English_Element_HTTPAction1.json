@@ -41,7 +41,7 @@
         "redirectTemplateUrl": "vlcAcknowledge.html",
         "responseJSONNode": "",
         "responseJSONPath": "",
-        "restMethod": "www.examplemethod.com",
+        "restMethod": "",
         "restOptions": {
             "URIEncode": false,
             "cache": false,
@@ -53,7 +53,7 @@
             "timeout": 0,
             "withCredentials": false
         },
-        "restPath": "www.example.com",
+        "restPath": "",
         "sendJSONNode": "",
         "sendJSONPath": "",
         "show": null,
