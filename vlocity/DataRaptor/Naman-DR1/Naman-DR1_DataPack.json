@@ -6,7 +6,7 @@
     "%vlocity_namespace%__DRMapItem__c": "Naman-DR1_Mappings.json",
     "%vlocity_namespace%__DRMapName__c": "Naman DR1",
     "%vlocity_namespace%__DeleteOnSuccess__c": false,
-    "%vlocity_namespace%__Description__c": "New DR",
+    "%vlocity_namespace%__Description__c": "Source credential",
     "%vlocity_namespace%__GlobalKey__c": "Naman DR1",
     "%vlocity_namespace%__IgnoreErrors__c": false,
     "%vlocity_namespace%__InputCustom__c": "",

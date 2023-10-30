@@ -1,0 +1,206 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "recordId",
+                "val": "0015w00002DUoxlAAD"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "getCases",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfDemoPassDataRecordIdDRFC_1_vlocityDev",
+        "Id": "0Rb5e000002Ap7pCAC",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfDemoPassDataRecordIdDRFC_1_vlocityDev",
+        "NamespacePrefix": "c"
+    },
+    "osSupport": true,
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "CaseId-0",
+                            "name": "CaseId",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "CaseId",
+                                "label": "CaseId",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "field"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Priority-1",
+                            "name": "Priority",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "Priority",
+                                "label": "Priority",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "field"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Status-4",
+                            "name": "Status",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "Status",
+                                "label": "Status",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "field"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Subject-2",
+                            "name": "Subject",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "Subject",
+                                "label": "Subject",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "type": "text"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "field"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Created-3",
+                            "name": "Created",
+                            "property": {
+                                "card": "{card}",
+                                "fieldName": "Created",
+                                "format": "M/D/YYYY",
+                                "label": "Created",
+                                "placeholder": "output",
+                                "record": "{record}",
+                                "type": "date"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "field"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "demoPassDataRecordIdDRFC"
+}

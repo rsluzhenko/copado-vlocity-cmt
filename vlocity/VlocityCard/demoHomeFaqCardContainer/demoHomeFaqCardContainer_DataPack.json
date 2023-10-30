@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[{\n\t\t\"question\": \"Do I have to sign a long term contract?\",\n\t\t\"answer\": \"No. We're so confident you're going to love our service that we offer month-to-month as well as committed contract rates for our customers.\"\n\t},\n\t{\n\t\t\"question\": \"Do you have good entertainment options?\",\n\t\t\"answer\": \"Yes.  We have the best streaming entertainment packages you can find with a lot of optional selections. You won't be forced into a bloated entertainment package - you can pick and pay for just what you want.\"\n\t},\n\t{\n\t\t\"question\": \"Can I do everything I want online?\",\n\t\t\"answer\": \"Yes. We know you want to be able to do everything from signing up to upgrading your entertainment options online. We offer the best online options that are simple to use and allow you to be in control of your service, payments, and options quickly and easily.\"\n\t},\n\t{\n\t\t\"question\": \"How do I get help if I have a technical issue?\",\n\t\t\"answer\": \"Check out our online diagnostic tools - they can really help resolve issues quickly without the need to wait online. If you can't resolve it, we'll seamlessly transfer you to a real, knowledgeable service agent who won't ask you to repeat everything about your issue and what you've tried to do already.\"\n\t}\n]",
+            "dsDelay": 0,
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoHomeFaqCardContainer.json",
+    "%vlocity_namespace%__Description__c": "Community home faq card container",
+    "%vlocity_namespace%__GlobalKey__c": "demoHomeFaqCardContainer/sfi/2/1628632978614",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demo_home_faq_card_container/pjefferies/1/1618253057372",
+    "%vlocity_namespace%__SampleData__c": "[{\"question\":\"Do I have to sign a long term contract?\",\"answer\":\"No. We're so confident you're going to love our service that we offer month-to-month as well as committed contract rates for our customers.\"},{\"question\":\"Do you have good entertainment options?\",\"answer\":\"Yes.  We have the best streaming entertainment packages you can find with a lot of optional selections. You won't be forced into a bloated entertainment package - you can pick and pay for just what you want.\"},{\"question\":\"Can I do everything I want online?\",\"answer\":\"Yes. We know you want to be able to do everything from signing up to upgrading your entertainment options online. We offer the best online options that are simple to use and allow you to be in control of your service, payments, and options quickly and easily.\"},{\"question\":\"How do I get help if I have a technical issue?\",\"answer\":\"Check out our online diagnostic tools - they can really help resolve issues quickly without the need to wait online. If you can't resolve it, we'll seamlessly transfer you to a real, knowledgeable service agent who won't ask you to repeat everything about your issue and what you've tried to do already.\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".slds-grid {\\n    align-items: stretch;\\n}\\n\\n%vlocity_namespace%-flex-card-state > div {\\n    height: 100%;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "demoHomeFaqCardContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoHomeFaqCardContainer"
+}

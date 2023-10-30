@@ -17,10 +17,10 @@
     "enableLwc": true,
     "isFlex": true,
     "lwc": {
-        "DeveloperName": "cfRTORO_PARENT_FLEXCARD_1_RTORO",
-        "Id": "0Rb8Y000000mMhrSAE",
+        "DeveloperName": "cfRTORO_PARENT_FLEXCARD_2_RTORO",
+        "Id": "0Rb8Y000000mNNxSAM",
         "ManageableState": "unmanaged",
-        "MasterLabel": "cfRTORO_PARENT_FLEXCARD_1_RTORO",
+        "MasterLabel": "cfRTORO_PARENT_FLEXCARD_2_RTORO",
         "NamespacePrefix": "c"
     },
     "selectableMode": "Multi",
@@ -34,6 +34,26 @@
             "components": {
                 "layer-0": {
                     "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "outputField",
+                            "elementLabel": "Text-0",
+                            "name": "Text",
+                            "property": {
+                                "card": "{card}",
+                                "mergeField": "%3Cdiv%3EHello%20Sir!%3C/div%3E",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "text"
+                        },
                         {
                             "class": "slds-col ",
                             "element": "childCardPreview",
@@ -62,6 +82,14 @@
             },
             "conditions": {
                 "group": [
+                    {
+                        "field": "Name",
+                        "hasMergeField": false,
+                        "id": "state-new-condition-0",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Test"
+                    }
                 ],
                 "id": "state-condition-object",
                 "isParent": true

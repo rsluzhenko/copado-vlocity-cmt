@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n  {\n    \"product_group\": \"Blaze\",\n    \"product_name\": \"Essential\",\n    \"product_speed\": \"250 Mbps\",\n    \"product_text_top\": \"Download Speed Up to\",\n    \"product_text_bottom\": \"with Unlimited Data\",\n    \"price\": \"$35\",\n    \"price_recurring\": \"/month\",\n    \"level\": \"low\"\n  },\n  {\n    \"product_group\": \"Blaze\",\n    \"product_name\": \"Premium\",\n    \"product_speed\": \"500 Mbps\",\n    \"product_text_top\": \"Download Speed Up to\",\n    \"product_text_bottom\": \"with Unlimited Data\",\n    \"price\": \"$50\",\n    \"price_recurring\": \"/month\",\n    \"level\": \"medium\"\n  },\n  {\n    \"product_group\": \"Blaze\",\n    \"product_name\": \"Supreme\",\n    \"product_speed\": \"1 Gbps\",\n    \"product_text_top\": \"Download Speed Up to\",\n    \"product_text_bottom\": \"with Unlimited Data\",\n    \"price\": \"$75\",\n    \"price_recurring\": \"/month\",\n    \"level\": \"high\"\n  }\n]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoHomePlansCardContainer.json",
+    "%vlocity_namespace%__Description__c": "Community home plans card container",
+    "%vlocity_namespace%__GlobalKey__c": "demoHomePlansCardContainer/sfi/1/1627996970942",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demo_home_plans_card_container/pjefferies/2/1626284967547",
+    "%vlocity_namespace%__SampleData__c": "[{\"product_group\":\"Blaze\",\"product_name\":\"Essential\",\"product_speed\":\"250 Mbps\",\"product_text_top\":\"Download Speed Up to\",\"product_text_bottom\":\"with Unlimited Data\",\"price\":\"$35\",\"price_recurring\":\"/month\",\"level\":\"low\"},{\"product_group\":\"Blaze\",\"product_name\":\"Premium\",\"product_speed\":\"500 Mbps\",\"product_text_top\":\"Download Speed Up to\",\"product_text_bottom\":\"with Unlimited Data\",\"price\":\"$50\",\"price_recurring\":\"/month\",\"level\":\"medium\"},{\"product_group\":\"Blaze\",\"product_name\":\"Supreme\",\"product_speed\":\"1 Gbps\",\"product_text_top\":\"Download Speed Up to\",\"product_text_bottom\":\"with Unlimited Data\",\"price\":\"$75\",\"price_recurring\":\"/month\",\"level\":\"high\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoHomePlansCardContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoHomePlansCardContainer"
+}

@@ -1,0 +1,570 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 4,
+                "name": "recordId",
+                "val": "0015Y00002iaWMwQAM"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": "",
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "ipMethod": "Account_ObjectRecordsCount",
+            "jsonMap": "{\"recordId\":\"{recordId}\"}",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "enableLwc": true,
+    "globalCSS": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfDemoConsoleLeftObjectLinksCard_3_sfi",
+        "Id": "0Rb5Y000000JXOfSAO",
+        "MasterLabel": "cfDemoConsoleLeftObjectLinksCard_3_sfi",
+        "NamespacePrefix": "c"
+    },
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-0-clone-0",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "hideActionIcon": false,
+                                "iconColor": "#999999",
+                                "iconSize": "small",
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "Account Snapshot",
+                                    "eventName": "CiConsoleMC",
+                                    "extraParams": {
+                                        "category": "home",
+                                        "id": ""
+                                    },
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1623955064706",
+                                    "message": "setvalues",
+                                    "openUrlIn": "Current Window",
+                                    "subType": "PubSub",
+                                    "type": "Event",
+                                    "vlocityIcon": "standard:home"
+                                },
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#0F80A8"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "iconColor": "#999999",
+                                    "iconSize": "small",
+                                    "styles": {
+                                        "label": {
+                                            "color": "#0F80A8"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "selectedStyles": "object-link",
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-4-clone-0",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "iconColor": "#999999",
+                                "iconSize": "small",
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "{StatementLink}",
+                                    "eventName": "CiConsoleMC",
+                                    "extraParams": {
+                                        "category": "statement",
+                                        "id": ""
+                                    },
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1623955067519",
+                                    "message": "setvalues",
+                                    "openUrlIn": "Current Window",
+                                    "subType": "PubSub",
+                                    "type": "Event",
+                                    "vlocityIcon": "standard:document"
+                                },
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#0F80A8"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "iconColor": "#999999",
+                                    "iconSize": "small",
+                                    "styles": {
+                                        "label": {
+                                            "color": "#0F80A8"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "selectedStyles": "object-link",
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1-clone-1",
+                            "name": "Action",
+                            "property": {
+                                "actionList": [
+                                    {
+                                        "actionIndex": 0,
+                                        "card": "{card}",
+                                        "displayAsButton": true,
+                                        "draggable": false,
+                                        "iconColor": "#999999",
+                                        "iconSize": "small",
+                                        "isOpen": true,
+                                        "isTrackingDisabled": true,
+                                        "key": "1667586964703-ezuiyvxlb",
+                                        "label": "Action",
+                                        "record": "{record}",
+                                        "stateAction": {
+                                            "displayName": "{AssetLink}",
+                                            "eventName": "CiConsoleMC",
+                                            "extraParams": {
+                                                "category": "asset",
+                                                "id": ""
+                                            },
+                                            "hasExtraParams": true,
+                                            "id": "flex-action-1623955070077",
+                                            "message": "setvalues",
+                                            "openUrlIn": "Current Window",
+                                            "subType": "PubSub",
+                                            "type": "Event",
+                                            "vlocityIcon": "standard:asset_relationship"
+                                        },
+                                        "stateObj": "{record}",
+                                        "styles": {
+                                            "label": {
+                                                "color": "#0F80A8"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "flyoutDetails": {
+                                },
+                                "iconColor": "#999999",
+                                "iconName": "standard:asset_relationship",
+                                "iconSize": "small",
+                                "label": "\\{AssetLink}",
+                                "record": "{record}",
+                                "showSpinner": "false",
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#0F80A8"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "iconColor": "#999999",
+                                    "iconSize": "small",
+                                    "styles": {
+                                        "label": {
+                                            "color": "#0F80A8"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "selectedStyles": "object-link",
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-1-clone-0",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "iconColor": "#999999",
+                                "iconSize": "small",
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "{CaseLink}",
+                                    "eventName": "CiConsoleMC",
+                                    "extraParams": {
+                                        "category": "case",
+                                        "id": ""
+                                    },
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1623955077671",
+                                    "message": "setvalues",
+                                    "openUrlIn": "Current Window",
+                                    "subType": "PubSub",
+                                    "type": "Event",
+                                    "vlocityIcon": "standard:case"
+                                },
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#0F80A8"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "iconColor": "#999999",
+                                    "iconSize": "small",
+                                    "styles": {
+                                        "label": {
+                                            "color": "#0F80A8"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "selectedStyles": "object-link",
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "action",
+                            "elementLabel": "Action-3-clone-0",
+                            "name": "Action",
+                            "property": {
+                                "card": "{card}",
+                                "displayAsButton": true,
+                                "iconColor": "#999999",
+                                "iconSize": "small",
+                                "record": "{record}",
+                                "stateAction": {
+                                    "displayName": "{OrderLink}",
+                                    "eventName": "CiConsoleMC",
+                                    "extraParams": {
+                                        "category": "order",
+                                        "id": ""
+                                    },
+                                    "hasExtraParams": true,
+                                    "id": "flex-action-1623955081371",
+                                    "message": "setvalues",
+                                    "openUrlIn": "Current Window",
+                                    "subType": "PubSub",
+                                    "type": "Event",
+                                    "vlocityIcon": "standard:orders"
+                                },
+                                "stateObj": "{record}",
+                                "styles": {
+                                    "label": {
+                                        "color": "#0F80A8"
+                                    }
+                                }
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                    "iconColor": "#999999",
+                                    "iconSize": "small",
+                                    "styles": {
+                                        "label": {
+                                            "color": "#0F80A8"
+                                        }
+                                    }
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                ],
+                                "padding": [
+                                ],
+                                "selectedStyles": "object-link",
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-bottom_x-small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "bottom:x-small",
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "demoConsoleLeftObjectLinksCard"
+}

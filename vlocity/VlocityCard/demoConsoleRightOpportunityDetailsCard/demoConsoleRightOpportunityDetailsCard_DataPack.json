@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "Parent.Id",
+                "val": "0064x000005eA05AAE"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "OpportunityId": "{Parent.Id}"
+            },
+            "ipMethod": "Opportunity_GetOpportunityDetails",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleRightOpportunityDetailsCard.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleRightOpportunityDetailsCard/sfi/1/1620939631339",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CiConsole_Right_OpportunityDetails_Card/SalesforceIndustries/4/1619760034307",
+    "%vlocity_namespace%__SampleData__c": "{\"AccountId\":\"0014x00000CulkkAAB\",\"OpportunityId\":\"0064x000005eA05AAE\",\"PriceList\":\"Commercial & Industrial\",\"CloseDate\":\"05/05/2019\",\"Amount\":\"$2,446,839.00\",\"AccountName\":\"General Dynamics\",\"StageName\":\"Offer Preparation\",\"Name\":\"New Opportunity Electricity\"}",
+    "%vlocity_namespace%__Styles__c": "{\"styleObjects\":{\"action-button\":{\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12 \",\"padding\":[{\"type\":\"around\",\"size\":\"xx-small\",\"label\":\"around:xx-small\"}],\"margin\":[],\"background\":{\"color\":\"#ffffff\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"1\",\"color\":\"#D8DDE6\",\"radius\":\"4px\",\"style\":\"solid\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"center\",\"color\":\"#0070D2\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center slds-p-around_xx-small \",\"style\":\"background-color:#ffffff;     border-color:#D8DDE6; border-width:1px; border-radius:4px; border-style:solid;    color:#0070D2; \",\"selectedStyles\":\"action-button\"},\"list-item-row\":{\"padding\":[{\"type\":\"top\",\"size\":\"xx-small\",\"label\":\"top:xx-small\"},{\"type\":\"bottom\",\"size\":\"xx-small\",\"label\":\"bottom:xx-small\"}],\"class\":\"slds-border_bottom slds-p-top_xx-small slds-p-bottom_xx-small \",\"sizeClass\":\"slds-size_12-of-12 \",\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"border_bottom\",\"width\":\"1\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"solid\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"style\":\"     border-color:#D8DDE6; border-width:1px;  border-style:solid;     \",\"selectedStyles\":\"list-item-row\"},\"list-item-leftcol\":{\"sizeClass\":\"slds-size_6-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"6\"},\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#6A7DA4\"},\"inlineStyle\":\"\",\"class\":\" \",\"style\":\"     border-color:#D8DDE6;       color:#6A7DA4; \",\"selectedStyles\":\"list-item-leftcol\"},\"list-item-rightcol\":{\"sizeClass\":\"slds-size_6-of-12 \",\"size\":{\"isResponsive\":false,\"default\":\"6\"},\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"\",\"color\":\"\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"#666666\"},\"inlineStyle\":\"\",\"class\":\" \",\"style\":\"            color:#666666; \",\"selectedStyles\":\"list-item-rightcol\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleRightOpportunityDetailsCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleRightOpportunityDetailsCard"
+}
