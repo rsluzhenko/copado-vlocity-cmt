@@ -1,0 +1,1541 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "recordId",
+                "val": "0014x00000CulkkAAB"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"category\":\"home\",\"tab\":\"overview\", \"id\":\"\"}"
+        }
+    },
+    "enableLwc": true,
+    "events": [
+        {
+            "actionData": {
+                "card": "{card}",
+                "stateAction": {
+                    "eventName": "setValues",
+                    "fieldValues": [
+                        {
+                            "fieldName": "tab",
+                            "fieldValue": "{action.tab}"
+                        }
+                    ],
+                    "id": "flex-action-1614689981780",
+                    "type": "cardAction"
+                }
+            },
+            "channelname": "CiConsoleMC",
+            "displayLabel": "CiConsoleMC:settab",
+            "element": "action",
+            "eventLabel": "pubsub",
+            "eventname": "settab",
+            "eventtype": "pubsub",
+            "key": "event-0",
+            "recordIndex": "0"
+        },
+        {
+            "actionData": {
+                "card": "{card}",
+                "stateAction": {
+                    "eventName": "setValues",
+                    "fieldValues": [
+                        {
+                            "fieldName": "id",
+                            "fieldValue": "{action.id}"
+                        },
+                        {
+                            "fieldName": "category",
+                            "fieldValue": "{action.category}"
+                        },
+                        {
+                            "fieldName": "tab",
+                            "fieldValue": "{action.tab}"
+                        }
+                    ],
+                    "id": "flex-action-1614691792265",
+                    "type": "cardAction"
+                }
+            },
+            "channelname": "CiConsoleMC",
+            "displayLabel": "CiConsoleMC:setvalues",
+            "element": "action",
+            "eventLabel": "pubsub",
+            "eventname": "setvalues",
+            "eventtype": "pubsub",
+            "key": "event-1",
+            "recordIndex": "0"
+        }
+    ],
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfDemoConsoleRightRecordDetailsFrame_1_sfi",
+        "Id": "0Rb5e000002Aq5ACAS",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfDemoConsoleRightRecordDetailsFrame_1_sfi",
+        "NamespacePrefix": "c"
+    },
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightAccountStatementCard",
+                "demoConsoleRightAccountServiceAccountsCard",
+                "demoConsoleRightContactCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-0",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightAccountStatementCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-1",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightAccountServiceAccountsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightContactCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-20",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "billing"
+                    },
+                    {
+                        "field": "id",
+                        "id": "state-condition-21",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "\"\""
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "tab",
+                                "id": "state-condition-23",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "\"\""
+                            },
+                            {
+                                "field": "tab",
+                                "id": "state-condition-24",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "overview"
+                            }
+                        ],
+                        "id": "state-condition-22",
+                        "logicalOperator": "&&"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Billing: Overview",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-right_small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "right:small",
+                        "size": "small",
+                        "type": "right"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightServiceAccountAssetsCard",
+                "demoConsoleRightOutagesCard",
+                "demoConsoleRightWorkOrdersCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-1",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightServiceAccountAssetsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 1,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightOutagesCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 1,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-3",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightWorkOrdersCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 1,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "serviceLocation"
+                    },
+                    {
+                        "field": "id",
+                        "id": "state-condition-1",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "\"\""
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "tab",
+                                "id": "state-condition-3",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "\"\""
+                            },
+                            {
+                                "field": "tab",
+                                "id": "state-condition-4",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "overview"
+                            }
+                        ],
+                        "id": "state-condition-2",
+                        "logicalOperator": "&&"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Service Location: Overview",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-right_small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "right:small",
+                        "size": "small",
+                        "type": "right"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightOpportunityDetailsCard",
+                "demoConsoleRightOpportunityQuotesCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightOpportunityDetailsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 2,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-3",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightOpportunityQuotesCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 2,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "opportunity"
+                    },
+                    {
+                        "field": "id",
+                        "id": "state-condition-1",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "\"\""
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "tab",
+                                "id": "state-condition-3",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "\"\""
+                            },
+                            {
+                                "field": "tab",
+                                "id": "state-condition-4",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "overview"
+                            }
+                        ],
+                        "id": "state-condition-2",
+                        "logicalOperator": "&&"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Opportunity: Overview",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-right_small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "right:small",
+                        "size": "small",
+                        "type": "right"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightContractDetailsCard",
+                "demoConsoleRightContractLineItemsCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-1",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightContractDetailsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 3,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightContractLineItemsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 3,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "contract"
+                    },
+                    {
+                        "field": "id",
+                        "id": "state-condition-1",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "\"\""
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "tab",
+                                "id": "state-condition-3",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "\"\""
+                            },
+                            {
+                                "field": "tab",
+                                "id": "state-condition-4",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "overview"
+                            }
+                        ],
+                        "id": "state-condition-2",
+                        "logicalOperator": "&&"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Contract: Overview",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-right_small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "right:small",
+                        "size": "small",
+                        "type": "right"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightOrderDetailsCard",
+                "demoConsoleRightOrderLineItemsCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-1",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightOrderDetailsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 4,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightOrderLineItemsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 4,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "order"
+                    },
+                    {
+                        "field": "id",
+                        "id": "state-condition-1",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "\"\""
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "tab",
+                                "id": "state-condition-3",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "\"\""
+                            },
+                            {
+                                "field": "tab",
+                                "id": "state-condition-4",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "overview"
+                            }
+                        ],
+                        "id": "state-condition-2",
+                        "logicalOperator": "&&"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Order: Overview",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-right_small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "right:small",
+                        "size": "small",
+                        "type": "right"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightCaseDetailsCard",
+                "demoConsoleRightCaseCommentsCard",
+                "demoConsoleRightCaseWorkOrdersCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-1",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightCaseDetailsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 5,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightCaseCommentsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 5,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-3",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightCaseWorkOrdersCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 5,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-0",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "case"
+                    },
+                    {
+                        "field": "id",
+                        "id": "state-condition-1",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "\"\""
+                    },
+                    {
+                        "group": [
+                            {
+                                "field": "tab",
+                                "id": "state-condition-3",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "\"\""
+                            },
+                            {
+                                "field": "tab",
+                                "id": "state-condition-4",
+                                "logicalOperator": "||",
+                                "operator": "==",
+                                "type": "custom",
+                                "value": "overview"
+                            }
+                        ],
+                        "id": "state-condition-2",
+                        "logicalOperator": "&&"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Case: Overview",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-right_small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "right:small",
+                        "size": "small",
+                        "type": "right"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        },
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "demoConsoleRightBusinessAccountStatementCard",
+                "demoConsoleRightHomeStatementPieCard",
+                "demoConsoleRightHomeStatementGraphCard",
+                "demoConsoleRightContactCard",
+                "demoConsoleRightBusinessAccountAssetsCard"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-0",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightBusinessAccountStatementCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 6,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "childCardPreview",
+                                            "elementLabel": "FlexCard-2",
+                                            "key": "element_element_element_block_1_6_block_0_6_childCardPreview_0_6",
+                                            "name": "FlexCard",
+                                            "parentElementKey": "element_element_block_1_6_block_0_6",
+                                            "property": {
+                                                "cardName": "demoConsoleRightHomeStatementPieCard",
+                                                "cardNode": "",
+                                                "isChildCardTrackingEnabled": false,
+                                                "recordId": "{recordId}",
+                                                "selectedState": "Active"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 6,
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_12-of-12 ",
+                                                "style": "             ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-1-Block-0",
+                                    "key": "element_element_block_1_6_block_0_6",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_1_6",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "6",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 6,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "6",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_6-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "class": "slds-col ",
+                                            "element": "childCardPreview",
+                                            "elementLabel": "FlexCard-3",
+                                            "key": "element_element_element_block_1_6_block_1_6_childCardPreview_0_6",
+                                            "name": "FlexCard",
+                                            "parentElementKey": "element_element_block_1_6_block_1_6",
+                                            "property": {
+                                                "cardName": "demoConsoleRightHomeStatementGraphCard",
+                                                "cardNode": "",
+                                                "isChildCardTrackingEnabled": false,
+                                                "recordId": "{recordId}",
+                                                "selectedState": "Active"
+                                            },
+                                            "size": {
+                                                "default": "12",
+                                                "isResponsive": false
+                                            },
+                                            "stateIndex": 6,
+                                            "styleObject": {
+                                                "size": {
+                                                    "default": "12",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_12-of-12 "
+                                            },
+                                            "type": "element"
+                                        }
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-1-Block-0-clone-0",
+                                    "key": "element_element_block_1_6_block_1_6",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_1_6",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "6",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 6,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "6",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_6-of-12 "
+                                    },
+                                    "type": "block"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-1",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 6,
+                            "styleObject": {
+                                "background": {
+                                    "color": "",
+                                    "image": "",
+                                    "position": "",
+                                    "repeat": "",
+                                    "size": ""
+                                },
+                                "border": {
+                                    "color": "",
+                                    "radius": "",
+                                    "style": "",
+                                    "type": "",
+                                    "width": ""
+                                },
+                                "class": "slds-m-bottom_medium ",
+                                "container": {
+                                    "class": ""
+                                },
+                                "elementStyleProperties": {
+                                },
+                                "inlineStyle": "",
+                                "margin": [
+                                    {
+                                        "label": "bottom:medium",
+                                        "size": "medium",
+                                        "type": "bottom"
+                                    }
+                                ],
+                                "padding": [
+                                ],
+                                "size": {
+                                    "default": "12",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_12-of-12 ",
+                                "style": "             ",
+                                "text": {
+                                    "align": "",
+                                    "color": ""
+                                }
+                            },
+                            "type": "block"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-2",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightContactCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "parentAttribute": {
+                                    "Id": "{id}"
+                                },
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 6,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        },
+                        {
+                            "class": "slds-col ",
+                            "element": "childCardPreview",
+                            "elementLabel": "FlexCard-3",
+                            "name": "FlexCard",
+                            "property": {
+                                "cardName": "demoConsoleRightBusinessAccountAssetsCard",
+                                "cardNode": "",
+                                "isChildCardTrackingEnabled": false,
+                                "recordId": "{recordId}",
+                                "selectedState": "Active"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 6,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                    {
+                        "field": "category",
+                        "id": "state-condition-10",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "home"
+                    }
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Home",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-p-around_x-small slds-m-bottom_x-small ",
+                "container": {
+                    "class": ""
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "bottom:x-small",
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "label": "around:x-small",
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "             ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "demoConsoleRightRecordDetailsFrame"
+}

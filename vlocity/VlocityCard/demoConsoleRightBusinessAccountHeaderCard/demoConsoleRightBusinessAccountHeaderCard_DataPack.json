@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "recordId",
+                "val": "0015e000003aDH5AAM"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "AccountId": "{recordId}"
+            },
+            "ipMethod": "Account_AccountDetails",
+            "resultVar": "",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleRightBusinessAccountHeaderCard.json",
+    "%vlocity_namespace%__Description__c": "Console header business account card",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleRightBusinessAccountHeaderCard/sfi/2/1621275495930",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CiConsole_Right_BusinessAccountHeader_Card/sfi/1/1619756396339",
+    "%vlocity_namespace%__SampleData__c": "{\"CalculatedAddress\":\"2941 Fairview Park Drive<br>Falls Church VA 22042\",\"DemoName\":\"Regulated Electricity\",\"AccountStatus\":\"Active\",\"RecordTypeName\":\"Business\",\"AccountPostalCode\":\"22042\",\"AccountState\":\"VA\",\"AccountNumber\":\"100100\",\"AccountCity\":\"Falls Church\",\"AccountStreet\":\"2941 Fairview Park Drive\",\"AccountName\":\"General Dynamics\",\"AccountId\":\"0015e000003aDH5AAM\"}",
+    "%vlocity_namespace%__Styles__c": "{\"styleObjects\":{\"action-button\":{\"size\":{\"isResponsive\":false,\"default\":\"2\"},\"sizeClass\":\"slds-size_2-of-12 \",\"padding\":[{\"type\":\"horizontal\",\"size\":\"x-small\",\"label\":\"horizontal:x-small\"}],\"margin\":[{\"type\":\"horizontal\",\"size\":\"x-small\",\"label\":\"horizontal:x-small\"}],\"background\":{\"color\":\"#ffffff\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"\",\"width\":\"1\",\"color\":\"#D8DDE6\",\"radius\":\"4px\",\"style\":\"solid\"},\"elementStyleProperties\":{\"iconSize\":\"x-small\"},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center slds-p-horizontal_x-small slds-m-horizontal_x-small \",\"style\":\"background-color:#ffffff;     border-color:#D8DDE6; border-width:1px; border-radius:4px; border-style:solid;     \",\"selectedStyles\":\"action-button\"},\"button-active\":{\"sizeClass\":\"slds-size_2-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"2\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"border_bottom\",\"width\":\"4\",\"color\":\"#0070D2\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{\"styles\":{\"label\":{\"color\":\"#6A7DA4\",\"fontSize\":\"16px\"}}},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center slds-border_bottom \",\"style\":\"     border-color:#0070D2; border-width:4px;       \",\"selectedStyles\":\"button-active\"},\"button-normal\":{\"sizeClass\":\"slds-size_2-of-12 \",\"padding\":[],\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"size\":{\"isResponsive\":false,\"default\":\"2\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":[],\"width\":\"4\",\"color\":\"#0070D2\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{\"styles\":{\"label\":{\"color\":\"#6A7DA4\",\"fontSize\":\"16px\"}}},\"text\":{\"align\":\"center\",\"color\":\"\"},\"inlineStyle\":\"\",\"class\":\"slds-text-align_center  \",\"style\":\"     border-color:#0070D2; border-width:4px;       \",\"selectedStyles\":\"button-normal\"},\"tabs-container\":{\"size\":{\"isResponsive\":false,\"default\":12},\"padding\":[{\"type\":\"around\",\"size\":\"x-small\",\"label\":\"around:x-small\"}],\"class\":\"slds-border_bottom slds-p-around_x-small \",\"sizeClass\":\"slds-size_12-of-12 \",\"margin\":[],\"background\":{\"color\":\"\",\"image\":\"\",\"size\":\"\",\"repeat\":\"\",\"position\":\"\"},\"container\":{\"class\":\"\"},\"border\":{\"type\":\"border_bottom\",\"width\":\"1\",\"color\":\"#D8DDE6\",\"radius\":\"\",\"style\":\"\"},\"elementStyleProperties\":{},\"text\":{\"align\":\"\",\"color\":\"\"},\"inlineStyle\":\"\",\"style\":\"     border-color:#D8DDE6; border-width:1px;   height:40px; min-height:30px;   \",\"height\":\"40px\",\"minHeight\":\"30px\",\"selectedStyles\":\"tabs-container\"}},\"styleDefaults\":{}}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 2,
+    "Name": "demoConsoleRightBusinessAccountHeaderCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleRightBusinessAccountHeaderCard"
+}

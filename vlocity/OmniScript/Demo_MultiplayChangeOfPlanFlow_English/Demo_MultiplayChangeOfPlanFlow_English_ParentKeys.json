@@ -1,0 +1,6 @@
+[
+    "DataRaptor/DemoGetAccountDetails",
+    "DataRaptor/DemoGetAssetDetails",
+    "DataRaptor/DemoGetMultiplayDemoConfig",
+    "DataRaptor/DemoGetOrderDetails"
+]

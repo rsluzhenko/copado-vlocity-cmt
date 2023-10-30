@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Author__c": "sfi",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "Parent.Id",
+                    "val": "8015e0000000va1AAA"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "DemoGetOrderDetails",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "OrderId": "{Parent.Id}"
+                },
+                "jsonMap": "{\"Parent.Id\":\"{Parent.Id}\"}",
+                "resultVar": "[0][\"OrderItem\"]"
+            }
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "demoConsoleOrderDetailsLineItems.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "demoConsoleOrderDetailsLineItems/sfi/1/1624736177869",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "demoConsoleRightOrderLineItemsCard/sfi/1/1620939931149",
+    "%vlocity_namespace%__SampleData__c": "[{\"QuoteId\":null,\"OrchestrationPlanId\":null,\"OrderItem\":[{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHMAA2\",\"ProductName\":\"Blaze Internet Premium\",\"LineNumber\":\"0001\"},{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHNAA2\",\"ProductName\":\"Internet Plan\",\"LineNumber\":\"0001.0001\"},{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHOAA2\",\"ProductName\":\"Internet Router\",\"LineNumber\":\"0001.0002\"},{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHPAA2\",\"ProductName\":\"Internet Security Software\",\"LineNumber\":\"0001.0003\"},{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHQAA2\",\"ProductName\":\"Installation Kit\",\"LineNumber\":\"0001.0004\"},{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHRAA2\",\"ProductName\":\"YouTubeTV\",\"LineNumber\":\"0002\"},{\"Quantity\":1,\"OrderItemId\":\"8025e000001cJHWAA2\",\"ProductName\":\"Spotify\",\"LineNumber\":\"0003\"}],\"AccountName\":\"Molina Family - San Francisco Residence\",\"OrderTotal\":\"$0.00\",\"RecurringTotal\":\"$124.98\",\"OneTimeTotal\":\"$0.00\",\"OrderStartDate\":\"2021-07-27\",\"AccountId\":\"0015e000008l31MAAQ\",\"OrderId\":\"8015e0000000va1AAA\",\"ShortOrderNumber\":\"258\",\"OrderName\":\"Initial Multiplay Internet Order\",\"OrderNumber\":\"00000258\",\"OrderFulfilmentStatus\":\"Activated\",\"OrderStatus\":\"Activated\"}]",
+    "%vlocity_namespace%__Styles__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demoConsoleOrderDetailsLineItems",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/demoConsoleOrderDetailsLineItems"
+}
