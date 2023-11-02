@@ -1,4 +1,9 @@
 [
     "DataRaptor/DemoGetAccountNotificationPreferences",
-    "DataRaptor/DemoGetContactDetails"
+    "DataRaptor/DemoGetContactDetails",
+    "IntegrationProcedure/Demo_GetAccountBillingDetails",
+    "IntegrationProcedure/Demo_GetContactId",
+    "IntegrationProcedure/Demo_UpdateAccountNotifications",
+    "IntegrationProcedure/Demo_UpdateBillingAddress",
+    "IntegrationProcedure/Demo_UpdateContactDetails"
 ]

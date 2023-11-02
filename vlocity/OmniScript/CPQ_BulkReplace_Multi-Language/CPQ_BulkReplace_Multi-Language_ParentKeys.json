@@ -1,4 +1,5 @@
 [
     "DataRaptor/CPQ-UpdateOrderGroupAsyncOperation",
-    "DataRaptor/CPQ-UpdateQuoteGroupAsyncOperation"
+    "DataRaptor/CPQ-UpdateQuoteGroupAsyncOperation",
+    "IntegrationProcedure/CPQ_StartBulkReplace"
 ]

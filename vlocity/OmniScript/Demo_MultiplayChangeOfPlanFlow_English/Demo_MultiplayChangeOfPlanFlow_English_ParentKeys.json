@@ -2,5 +2,9 @@
     "DataRaptor/DemoGetAccountDetails",
     "DataRaptor/DemoGetAssetDetails",
     "DataRaptor/DemoGetMultiplayDemoConfig",
-    "DataRaptor/DemoGetOrderDetails"
+    "DataRaptor/DemoGetOrderDetails",
+    "IntegrationProcedure/Demo_AssetToOrder",
+    "IntegrationProcedure/Demo_CheckoutOrder",
+    "IntegrationProcedure/Demo_GetUpgradeOptions",
+    "IntegrationProcedure/Demo_UpgradeOfferReplace"
 ]

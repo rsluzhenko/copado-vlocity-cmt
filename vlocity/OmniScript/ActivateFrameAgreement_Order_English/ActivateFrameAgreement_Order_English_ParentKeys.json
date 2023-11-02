@@ -1,3 +1,4 @@
 [
-    "DataRaptor/ExtractFrameContractForActivation"
+    "DataRaptor/ExtractFrameContractForActivation",
+    "IntegrationProcedure/ActivateFrameAgreement_Order"
 ]

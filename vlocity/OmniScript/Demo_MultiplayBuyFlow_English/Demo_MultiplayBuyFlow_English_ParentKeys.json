@@ -1,5 +1,15 @@
 [
     "DataRaptor/DemoGetAccountByNumber",
     "DataRaptor/DemoGetMultiplayDemoConfig",
-    "DataRaptor/DemoGetUserDetails"
+    "DataRaptor/DemoGetUserDetails",
+    "IntegrationProcedure/Demo_AddPaymentMethod",
+    "IntegrationProcedure/Demo_AssignUserLicenses",
+    "IntegrationProcedure/Demo_CheckUsernameAvailability",
+    "IntegrationProcedure/Demo_CheckoutOrder",
+    "IntegrationProcedure/Demo_GetAppointments",
+    "IntegrationProcedure/Demo_GetCatalog",
+    "IntegrationProcedure/Demo_PrepareOrder",
+    "IntegrationProcedure/Demo_ServiceabilityCheck",
+    "IntegrationProcedure/Demo_UpdateBillingAddress",
+    "IntegrationProcedure/Demo_UserRegistration"
 ]

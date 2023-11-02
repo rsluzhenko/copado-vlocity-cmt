@@ -1,5 +1,6 @@
 [
     "DataRaptor/DemoGetAssetDetails",
     "DataRaptor/DemoGetMultiplayDemoConfig",
-    "DataRaptor/DemoGetUserDetails"
+    "DataRaptor/DemoGetUserDetails",
+    "IntegrationProcedure/Demo_CreateTroubleshootingCase"
 ]
