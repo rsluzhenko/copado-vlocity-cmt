@@ -11,7 +11,7 @@
     "consoleTabIcon": "custom:custom18",
     "consoleTabLabel": "New",
     "consoleTabTitle": null,
-    "currencyCode": "",
+    "currencyCode": "USD",
     "currentLanguage": "en_US",
     "disableUnloadWarn": true,
     "elementTypeToHTMLTemplateMapping": {
