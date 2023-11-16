@@ -3,7 +3,8 @@
     "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "%vlocity_namespace%__Element__c": [
         "TestUtils_Utilities_English_Element_Step1.json",
-        "TestUtils_Utilities_English_Element_CalculationAction1.json"
+        "TestUtils_Utilities_English_Element_CalculationAction1.json",
+        "TestUtils_Utilities_English_Element_DeleteAction1.json"
     ],
     "%vlocity_namespace%__IsLwcEnabled__c": true,
     "%vlocity_namespace%__IsProcedure__c": false,
