@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "21NOV_21NOVRTORO_English_Element_Step1.json",
+        "21NOV_21NOVRTORO_English_Element_DeleteAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "21NOV_21NOVRTORO_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "21NOVRTORO",
+    "%vlocity_namespace%__Type__c": "21NOV",
+    "Name": "21-Nov-RTORO",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/21NOV/21NOVRTORO/English"
+}
