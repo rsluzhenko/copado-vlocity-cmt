@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Assembles all records across objects for flexcard story",
+    "%vlocity_namespace%__CustomJavaScript__c": "CustomerStory_Marshaller_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CustomerStory_Marshaller_Element_drGetOpportunityEntries.json",
+        "CustomerStory_Marshaller_Element_drGetCaseEntries.json",
+        "CustomerStory_Marshaller_Element_drGetTaskEntries.json",
+        "CustomerStory_Marshaller_Element_drGetWorkOrderEntries.json",
+        "CustomerStory_Marshaller_Element_drGetOrderEntries.json",
+        "CustomerStory_Marshaller_Element_listMergeAllActivities.json",
+        "CustomerStory_Marshaller_Element_ResponseAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "CustomerStory_Marshaller",
+    "%vlocity_namespace%__PropertySet__c": "CustomerStory_Marshaller_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Marshaller",
+    "%vlocity_namespace%__Type__c": "CustomerStory",
+    "Name": "AssemblePersonAccountStoryEntries",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CustomerStory/Marshaller/Procedure"
+}
