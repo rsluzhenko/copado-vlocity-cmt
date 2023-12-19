@@ -2,6 +2,7 @@
 private class InvoicesTest {
     @IsTest
     private static void test() {
-        System.debug('Testing 2323');
+        System.debug('Testing 123');
+        new Invoices();
     }
 }
