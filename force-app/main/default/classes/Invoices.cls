@@ -1,5 +1,6 @@
 public class Invoices {
     public Invoices() {
-        System.debug('create invoices 99');
+Integer i = 0;
+        System.debug('create invoices 0000');
     }
 }
