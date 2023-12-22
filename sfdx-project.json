@@ -2,7 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "mahitestPckgnew",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     },
     {
       "path": "",
@@ -18,6 +22,7 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "57.0",
   "packageAliases": {
-    "TE-016031": "0Ho5g000000fy3qCAA"
+    "TE-016031": "0Ho5g000000fy3qCAA",
+    "mahitestPckgnew": "0Ho5g000000fy3vCAA"
   }
 }
