@@ -15,6 +15,14 @@
       "versionNumber": "0.1.0.NEXT",
       "default": false,
       "versionDescription": ""
+    },
+    {
+      "path": "force-app",
+      "package": "TE-016031_2",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "name": "copado-vlocity-cmt",
@@ -23,6 +31,7 @@
   "sourceApiVersion": "57.0",
   "packageAliases": {
     "TE-016031": "0Ho5g000000fy3qCAA",
-    "mahitestPckgnew": "0Ho5g000000fy3vCAA"
+    "mahitestPckgnew": "0Ho5g000000fy3vCAA",
+    "TE-016031_2": "0Ho5g000000fy40CAA"
   }
 }
