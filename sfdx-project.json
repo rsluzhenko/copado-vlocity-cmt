@@ -28,7 +28,7 @@
   "name": "copado-vlocity-cmt",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "57.0",
+  "sourceApiVersion": "59.0",
   "packageAliases": {
     "TE-016031": "0Ho5g000000fy3qCAA",
     "mahitestPckgnew": "0Ho5g000000fy3vCAA",
